@@ -15,6 +15,13 @@ enableGitInfo = false
     weight = -110
 
     [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    title = "Recent & Past Events"
+    url = "/events"
+    weight = -105
+
+    [[menu.main]]
     identifier = "blog"
     name = "Blog"
     title = "Articles by UICHCC"
