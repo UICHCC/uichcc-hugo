@@ -6,6 +6,7 @@
         {{ if $.Params.carousel }}{{- partial "carousel.html" . -}}{{ end }}
         {{ if $.Params.featurePhoto }}{{- partial "feature_photo.html" . -}}{{ end }}
         <div class="container marketing">
+        {{- partial "homepage-sections/features.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>

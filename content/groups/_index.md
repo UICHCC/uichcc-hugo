@@ -3,6 +3,8 @@ title: "Groups"
 enableJoinUs: true
 carousel: false
 featurePhoto: true
+subtitle: "@ UICHCC Computer Club"
+feature_photo_url: "https://i.loli.net/2017/09/12/59b6b4c572efe.jpg"
 ---
 
 **IMPORTANT**: The content of this page is outdated. Please check our GitHub repository for the latest Data.

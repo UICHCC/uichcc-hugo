@@ -1,0 +1,19 @@
+{{ if .Params.features }}
+    <!-- Three columns of text below the carousel -->
+    <div class="card-deck">
+        {{ $features := .Params.features }}
+        {{ range $i, $e := $features  }}
+        <div class="card">
+        {{ with .image_path }}
+        <img class="card-img-top mx-auto" src="{{ . }}" alt="{{ $e.heading }}" style="width: 50%; padding-top: 1rem">
+        {{ end }}
+            <div class="card-body">
+                <h4 class="card-title">{{ $e.heading }}</h4>
+                <p class="card-text">
+                {{ .body }}
+                </p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+{{ end }}

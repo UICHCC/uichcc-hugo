@@ -3,20 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://uichcc.com/</loc>
+    <lastmod>2019-04-21T19:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/2019-0421-wqz-recursion/</loc>
+    <lastmod>2019-04-21T19:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/</loc>
+    <lastmod>2019-04-21T19:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/2019-0224-lmy-speakingofgit/</loc>
+    <lastmod>2019-02-24T19:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/2018-1118-wzh-bscc/</loc>
+    <lastmod>2018-11-18T20:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/2018-1118-lmy-pyiwv/</loc>
+    <lastmod>2018-11-18T19:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/2018-1111-ljj-collaboratingandconverging/</loc>
+    <lastmod>2018-11-11T20:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/2018-1111-wqz-speakingofstoragedevices/</loc>
+    <lastmod>2018-11-11T19:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/archive-zjr-speakingofgit/</loc>
+    <lastmod>2018-01-01T00:00:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/salon/archive-lmy-knowledgeispowerintroductiontoinformationsecurity/</loc>
+    <lastmod>2018-01-01T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://uichcc.com/blog/</loc>
   </url>
   
   <url>
     <loc>https://uichcc.com/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://uichcc.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://uichcc.com/about/</loc>
   </url>
   
   <url>
@@ -28,11 +75,11 @@
   </url>
   
   <url>
-    <loc>https://uichcc.com/projects/</loc>
+    <loc>https://uichcc.com/blog/it%E8%AF%BE%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/</loc>
   </url>
   
   <url>
-    <loc>https://uichcc.com/blog/it%E8%AF%BE%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/</loc>
+    <loc>https://uichcc.com/projects/</loc>
   </url>
   
   <url>
