@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        {{ if $.Params.carousel }}{{- partial "carousel.html" . -}}{{ end }}
+        {{ if $.Params.featurePhoto }}{{- partial "feature_photo.html" . -}}{{ end }}
+        <div class="container marketing">
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{ if $.Params.enableJoinUs }}{{- partial "joinus.html" . -}}{{ end }}
+        {{- partial "footer.html" . -}}
+        </div>
+        {{- partial "script.html" . -}}
+    </body>
+</html>

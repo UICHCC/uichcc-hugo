@@ -1,0 +1,50 @@
+baseURL = "https://uichcc.com/"
+languageCode = "en-us"
+title = "UICHCC 计算机俱乐部"
+theme = "uichccSkeleton"
+
+enableGitInfo = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Homepage"
+    url = "/"
+    weight = -110
+
+    [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    title = "Articles by UICHCC"
+    url = "/blog/"
+    weight = -100
+
+    [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "Projects in UICHCC"
+    url = "/projects/"
+    weight = -90
+
+    [[menu.main]]
+    identifier = "groups"
+    name = "Groups"
+    title = "UICHCC Groups"
+    url = "/groups/"
+    weight = -80
+
+    [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About UICHCC"
+    url = "/about/"
+    weight = -70
+
+    [[menu.main]]
+    identifier = "contact_us"
+    name = "Contact Us"
+    title = "Contact UICHCC"
+    url = "/contacts/"
+    weight = -60
