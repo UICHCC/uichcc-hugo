@@ -1,7 +1,10 @@
 {{ define "main" }}
+<style>
+    img, object, embed {max-width: 100%; height: auto;}
+</style>
 {{ .Content }}
 <hr class="featurette-divider">
-<h4>List of all events</h4>
+<h4>List of events</h4>
 <div class="list-group">
 {{ range .Data.Pages.ByWeight }}
 <a href="#{{ .Params.anchor }}" class="list-group-item list-group-item-action">
@@ -11,17 +14,16 @@
 {{ end }}
 </div>
 <hr class="featurette-divider">
+<div class="card-columns">
 {{ range .Data.Pages.ByWeight }}
-    <div class="card my-5" id="{{ .Params.anchor }}">
-            <div class="card-header">
-                    {{ .Title }} <small><a href="#top">Back to Top</a></small>
-            </div>
+    <div class="card" id="{{ .Params.anchor }}">
             <div class="card-body">
               <p class="card-text">{{ .Content }}</p>
               <h6 class="card-subtitle mb-2 text-muted">Last Update: {{ .Date.Format "January 2, 2006" }}</h6>
             </div>
+            <div class="card-footer">{{ .Title }}</div>
           </div>
 
     {{ end }}
-
+  </div>
 {{ end }}
