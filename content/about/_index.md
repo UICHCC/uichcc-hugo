@@ -21,29 +21,31 @@ carouselSlides:
     image_path: https://i.loli.net/2017/09/14/59b9f4619691b.jpg
 ---
 
-## Abridge you and technology, A bridge between you and technology.
+<div class="text-center">
+<img class="img-fluid" src="/img/uichccblack.svg" style="height: 50px">
+<p style="font-size: 26px; margin-top: 2rem">Abridge you and technology, A bridge between you and technology.</p>
+<p>You can visit our regulations repository to fetch more information.</p>
+<p><a href="https://github.com/UICHCC/HCC-Regulations" class="btn btn-primary"><i class="fab fa-github" aria-hidden="true"></i> HCC-Regulations</a></p>
+</div>
 
-You can visit our regulations repository to fetch more information.
+<div>
+<hr class="featurette-divider">
 
-[HCC-Regulations](https://github.com/UICHCC/HCC-Regulations)
-
-----
-
-This site uses the following open source projects, CC0 Photos Library, free CDN & image storage services. You can check out these awesome projects.
-
-- Bootstrap
-- Hexo
-- Hugo
-- BootCDN
-- Unsplash
-- Font Awesome
-- CloudFlare
-- Typed.js
-- SM.MS
-- Yue.css
-
-----
-## Special Thanks
-
-- Beijing Normal University - Hong Kong Baptist University United International College (UIC)
-- Division of Science and Technology, Computer Science and Technology
+<!-- /END THE FEATURETTES -->
+<div class="thx" style="line-height: 30px">
+<p>This site uses the following open source projects, CC0 Photos Library, free CDN &amp; image storage services. Click to check out these awesome projects.</p>
+<a href="https://getbootstrap.com/"><img src="thx/boostrap.svg" height="30px"></a> &middot;
+<a href="https://hexo.io/"><img src="thx/hexo.svg" height="30px"></a> &middot;
+<a href="http://www.bootcdn.cn/"><img src="thx/bootcdn.svg" height="30px"></a> &middot;
+<a href="https://unsplash.com/"><img src="thx/unsplash.svg" height="30px"></a> &middot;
+<a href="http://fontawesome.io/"><img src="thx/fontawesome.svg" height="30px"></a> &middot;
+<a href="https://www.cloudflare.com/"><img src="thx/cloudflare.svg" height="30px"></a> &middot;
+<a href="http://www.mattboldt.com/demos/typed-js/"><img src="thx/typedjs.svg" height="30px"></a> &middot;
+<a href="https://sm.ms/"><img src="thx/smms.svg" height="30px"></a>
+</div>
+<hr class="featurette-divider">
+<div class="thx" style="line-height: 30px">
+<p>Special Thanks</p>
+<a href="http://uic.edu.hk/"><img src="thx/uic.svg" height="50px"></a>
+</div>
+</div>
