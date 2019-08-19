@@ -1,0 +1,38 @@
+{{ define "extraStyle" }}
+<link href="{{ "css/blog-style.css" | relURL }}" rel="stylesheet">
+{{ end }}
+{{ define "main" }}
+{{ if $.Params.featurePhoto }}{{ else }}<div style="margin-bottom: 5rem;"></div>{{ end }}
+  <main>
+      {{ if $.Params.featurePhoto }}{{ else }}<h2 class="mb-3">{{ .Title }}</h2>{{ end }}
+      <p class="mb-3">{{ .Date.Format "January 2, 2006" }} | by: {{ .Params.author }}</p>
+      {{ .Content }}
+  </main>
+  <div class="row mt-5">
+    {{ with .NextInSection }}
+    <div class="col-6">
+        <div class="card border-info">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 mt-1 text-muted">上一篇：</h6>
+              <h2 class="card-title">{{ .Title }}</h5>
+              <p class="card-text">{{ .Params.subtitle }}</p>
+              <a href="{{ .Permalink }}" class="stretched-link">Read the post</a>
+            </div>
+          </div>
+    </div>
+    {{ end }}
+    {{ with .PrevInSection }}
+    <div class="col-6">
+        <div class="card border-success">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 mt-1 text-muted">下一篇：</h6>
+              <h2 class="card-title">{{ .Title }}</h5>
+              <p class="card-text">{{ .Params.subtitle }}</p>
+              <a href="{{ .Permalink }}" class="stretched-link">Read the post</a>
+            </div>
+          </div>
+    </div>
+    {{ end }}
+  </div>
+  
+{{ end }}

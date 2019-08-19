@@ -1,6 +1,10 @@
 ---
 title: UIC专属头像合成器 · 原理解析
-date: 2016/12/07 00:00:01
+date: 2016-12-07T00:00:00+08:00
+author: 高超
+featurePhoto: true
+subtitle: ""
+feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 ---
 
 这是一个网页，涉及到的语言是 HTML, CSS 和 JavaScript (JS)，使用到的 JS 框架是 jQuery。用到的主要 HTML 元素是 Canvas (画布)，主要的 JS 类是 FileReader。下面主要讲一下 JS 里面的功能代码。
@@ -9,7 +13,7 @@ date: 2016/12/07 00:00:01
 
 首先，新建一个画布。
 
-```
+```js
 var c = document.cresateElement('canvas');
 var ctx = c.getContext('2d');
 c.width = wid;
@@ -18,14 +22,16 @@ ctx.fillStyle = 'white'; // 将画布的填充颜色设置为白色，之后填�
 ```
 
 wid 是画布的默认宽度，也就是图片的宽度。然后我们将
+
 ![](https://ooo.0o0.ooo/2017/06/17/5944fbb4bfe22.jpg)
+
 （由于图片格式是 png，故底色呈现为黑色。）
 
 这个图片的地址存下来，以遍之后使用。这里我们把他存在数组 `data1[]` 中，我们可以通过 `data1[0]` 来获取这个图片的地址，数据格式是 `string`。
 
 另外，我们需要`<input type="file" accept="image/*" id="uic">`标签实现本地文件上传功能。对应的 JS 代码：
 
-```
+```js
 $("#uic").change(function() {
  // 点击上传图片被调用，也就是点击上传图片之后这里面的代码会被运行
  ctx.fill(); // 填充背景颜色，颜色是白色

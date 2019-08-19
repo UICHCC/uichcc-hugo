@@ -1,9 +1,9 @@
 ---
 title: "Contact Us"
-enableJoinUs: true
+enableJoinUs: false
 carousel: false
 featurePhoto: true
-subtitle: "Original articles by UICHCC Members"
+subtitle: "There are different kinds of way to contact us, we are listed below for you, click the bottom for more information."
 feature_photo_url: "https://ooo.0o0.ooo/2017/06/15/594297574bf46.jpg"
 ---
 

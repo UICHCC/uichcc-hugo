@@ -1,6 +1,10 @@
 ---
 title: 小工具 | 属于 UIC 的 GPA 计算器
-date: 2017/02/22 00:00:00
+date: 2017-02-22T00:00:00+08:00
+author: 高超
+featurePhoto: true
+subtitle: ""
+feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 ---
 
 新学期伊始，有没有给本学期末的 GPA 定下一个小小的目标呢？

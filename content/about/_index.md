@@ -25,6 +25,25 @@ carouselSlides:
 
 You can visit our regulations repository to fetch more information.
 
+[HCC-Regulations](https://github.com/UICHCC/HCC-Regulations)
+
 ----
 
-This site uses the following open source projects, CC0 Photos Library, free CDN & image storage services. Click to check out these awesome projects.
+This site uses the following open source projects, CC0 Photos Library, free CDN & image storage services. You can check out these awesome projects.
+
+- Bootstrap
+- Hexo
+- Hugo
+- BootCDN
+- Unsplash
+- Font Awesome
+- CloudFlare
+- Typed.js
+- SM.MS
+- Yue.css
+
+----
+## Special Thanks
+
+- Beijing Normal University - Hong Kong Baptist University United International College (UIC)
+- Division of Science and Technology, Computer Science and Technology

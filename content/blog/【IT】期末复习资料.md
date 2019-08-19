@@ -1,8 +1,11 @@
 ---
 title: 【IT】期末复习资料
-date: 2016/12/02 00:00:00
+date: 2016-12-02T00:00:00+08:00
+author: UICHCC
+featurePhoto: true
+subtitle: ""
+feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 ---
-
 哈喽，又见面啦！
 又一篇关于 IT 课程的干货，期末将至，还没来得及整理复习资料的同学，不如就把这篇推送收藏了吧~
 
