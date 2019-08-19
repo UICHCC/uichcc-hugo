@@ -1,3 +1,23 @@
 {{ define "main" }}
-Project Section
+<div class="projects">
+    
+
+
+{{ range .Data.Pages }}
+
+    <div class="row">
+            <div class="col-lg-4">
+                <img src="{{ .Params.icon_path }}" alt="Generic placeholder image" width="140" height="140">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-8">
+                <h2>{{ .Title }}</h2>
+                <p>
+                    {{ .Params.desc }}
+                </p>
+                <p><a class="btn btn-secondary" href="{{.Permalink}}" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+
+    {{ end }}
+</div>
 {{ end }}
