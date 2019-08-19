@@ -1,3 +1,27 @@
 {{ define "main" }}
-Events Section
+{{ .Content }}
+<hr class="featurette-divider">
+<h4>List of all events</h4>
+<div class="list-group">
+{{ range .Data.Pages.ByWeight }}
+<a href="#{{ .Params.anchor }}" class="list-group-item list-group-item-action">
+    {{ .Title }}
+</a>
+
+{{ end }}
+</div>
+<hr class="featurette-divider">
+{{ range .Data.Pages.ByWeight }}
+    <div class="card my-5" id="{{ .Params.anchor }}">
+            <div class="card-header">
+                    {{ .Title }} <small><a href="#top">Back to Top</a></small>
+            </div>
+            <div class="card-body">
+              <p class="card-text">{{ .Content }}</p>
+              <h6 class="card-subtitle mb-2 text-muted">Last Update: {{ .Date.Format "January 2, 2006" }}</h6>
+            </div>
+          </div>
+
+    {{ end }}
+
 {{ end }}

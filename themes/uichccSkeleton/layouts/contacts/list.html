@@ -1,3 +1,18 @@
 {{ define "main" }}
-Contact Us Section
+<div class="row">
+    {{ range $i, $e := .Pages }}
+        <div class="col-lg-4 contact">
+          <i class="{{ .Params.iconClass }} fa-3x" aria-hidden="true"></i>
+          <h4>{{ .Title }}</h4>
+          <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapse{{ $i }}" aria-expanded="false" aria-controls="collapseExample">
+                {{ .Params.btnText }}
+          </button>
+          </p>
+          <div class="collapse" id="collapse{{ $i }}">
+            {{ .Content }}
+          </div>
+        </div>
+
+    {{ end }}
+</div>
 {{ end }}

@@ -3,13 +3,8 @@
       {{ .Content }}
           <ul class="contents">
           {{ range .Paginator.Pages }}
-              <li>{{.Title}}
-                  <div>
-                    {{/*  {{ partial "summary.html" . }}  */}}
-                  </div>
-              </li>
+              <li>{{.Title}}</li>
           {{ end }}
           </ul>
-      {{/*  {{ partial "pagination.html" . }}  */}}
   </main>
 {{ end }}

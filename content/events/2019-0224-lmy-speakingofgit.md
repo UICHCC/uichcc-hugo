@@ -5,7 +5,11 @@ anchor: "2019sog2myl"
 weight: 
 ---
 Topic: **Speaking of Git** 
+
 Speaker: Minyong Li (`CST Year 3`)
+
 Location: T8-305 (BNU-HKBU UIC)
+
 Time: 2019.02.24 19:00-21:00
-![Poster](img/0224_lmy_sog_post.jpg)
+
+![Poster](images/0224_lmy_sog_post.jpg)

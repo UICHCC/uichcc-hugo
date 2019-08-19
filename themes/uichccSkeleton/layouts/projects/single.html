@@ -7,32 +7,15 @@
       {{ if $.Params.featurePhoto }}{{ else }}<h2 class="mb-3">{{ .Title }}</h2>{{ end }}
       <p class="mb-3">{{ .Date.Format "January 2, 2006" }} | by: {{ .Params.author }}</p>
       {{ .Content }}
+      <div class="text-center">
+            <hr class="featurette-divider">
+            <h4>Related Resource(s)</h4>
+            {{ if .Params.project_url }}
+            <a class="btn btn-lg btn-outline-primary" href="{{ .Params.project_url }}" role="button">Try it Now</a>
+            {{ end }}
+            {{ if .Params.github_url }}
+            <a class="btn btn-lg btn-outline-success" href="{{ .Params.github_url }}" role="button">GitHub</a>
+            {{ end }}
+      </div>
   </main>
-  <div class="row mt-5">
-    {{ with .NextInSection }}
-    <div class="col-6">
-        <div class="card border-info">
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 mt-1 text-muted">上一篇：</h6>
-              <h2 class="card-title">{{ .Title }}</h5>
-              <p class="card-text">{{ .Params.subtitle }}</p>
-              <a href="{{ .Permalink }}" class="stretched-link">Read the post</a>
-            </div>
-          </div>
-    </div>
-    {{ end }}
-    {{ with .PrevInSection }}
-    <div class="col-6">
-        <div class="card border-success">
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 mt-1 text-muted">下一篇：</h6>
-              <h2 class="card-title">{{ .Title }}</h5>
-              <p class="card-text">{{ .Params.subtitle }}</p>
-              <a href="{{ .Permalink }}" class="stretched-link">Read the post</a>
-            </div>
-          </div>
-    </div>
-    {{ end }}
-  </div>
-  
 {{ end }}

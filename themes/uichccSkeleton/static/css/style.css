@@ -7,7 +7,7 @@ body {
     color: #5a5a5a;
     height: 100%;
   }
-  
+  img, object, embed {max-width: 100%; height: auto;}
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
@@ -59,7 +59,10 @@ body {
   .contact{
     padding: 1rem;
   }
-  .contact > .fa{
+  .contact > .fab{
+    margin: 0 0 2rem 0;
+  }
+  .contact > .fas{
     margin: 0 0 2rem 0;
   }
   .contact > h4{
@@ -102,8 +105,7 @@ body {
     height: auto;
     visibility: hidden;
   }
-  
-  
+
   /* MARKETING CONTENT
   -------------------------------------------------- */
   

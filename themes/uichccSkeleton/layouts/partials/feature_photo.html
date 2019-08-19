@@ -1,3 +1,4 @@
+{{ if $.Params.featurePhoto }}
 <div id="featureCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" style="background-image: url({{ .Params.feature_photo_url }});">
@@ -11,3 +12,4 @@
       </div>
     </div>
   </div>
+{{ end }}
