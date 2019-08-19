@@ -10,5 +10,50 @@
 	<atom:link href="https://uichcc.com/contacts/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Email</title>
+      <link>https://uichcc.com/contacts/email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/contacts/email/</guid>
+      <description>Want to leave a comment or join us: hi@uichcc.com Want to cooperate with us: collaboration@uichcc.com </description>
+    </item>
+    
+    <item>
+      <title>GitHub Organization</title>
+      <link>https://uichcc.com/contacts/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/contacts/github/</guid>
+      <description>: UICHCC </description>
+    </item>
+    
+    <item>
+      <title>Telegram</title>
+      <link>https://uichcc.com/contacts/telegram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/contacts/telegram/</guid>
+      <description>: UICHCC Friends </description>
+    </item>
+    
+    <item>
+      <title>WeChat Public Account</title>
+      <link>https://uichcc.com/contacts/wechat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/contacts/wechat/</guid>
+      <description>ID:uichcc </description>
+    </item>
+    
+    <item>
+      <title>YouTube Channel</title>
+      <link>https://uichcc.com/contacts/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/contacts/youtube/</guid>
+      <description>: UICHCC Computer Club  </description>
+    </item>
+    
   </channel>
 </rss>

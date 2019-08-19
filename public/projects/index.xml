@@ -6,9 +6,55 @@
     <description>Recent content in Projects on UICHCC 计算机俱乐部</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://uichcc.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>uicCourse</title>
+      <link>https://uichcc.com/projects/uiccourse/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/projects/uiccourse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Many of You in UIC</title>
+      <link>https://uichcc.com/projects/howmanyofyouinuic/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/projects/howmanyofyouinuic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LCbot UICHCC Edition</title>
+      <link>https://uichcc.com/projects/uichccbot/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/projects/uichccbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPA Calculator</title>
+      <link>https://uichcc.com/projects/gpacalculator/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/projects/gpacalculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UIC Headphoto Synthesizer</title>
+      <link>https://uichcc.com/projects/uichs/</link>
+      <pubDate>Wed, 07 Dec 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/projects/uichs/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
