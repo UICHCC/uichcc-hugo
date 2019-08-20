@@ -188,12 +188,20 @@
   </url>
   
   <url>
+    <loc>https://uichcc.com/about/reservation/</loc>
+  </url>
+  
+  <url>
     <loc>https://uichcc.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://uichcc.com/contacts/telegram/</loc>
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/about/branding/</loc>
   </url>
   
   <url>
