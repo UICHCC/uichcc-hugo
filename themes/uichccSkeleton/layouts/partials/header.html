@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
-        <img class="navbar-icon mx-auto" src="{{ "img/uichccwhite.svg" | absURL }}" style="max-height: 40px;">
+        <img class="navbar-icon mx-auto" src="{{ "img/uichccwhite.svg" | relURL }}" style="max-height: 40px;">
         <div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
             <ul class="navbar-nav">
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
-                            <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                            <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ( $currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
                                 <a class="nav-link" href="{{ .URL }}">
                                     {{ .Pre }}
                                     <span>{{ .Name }}</span>

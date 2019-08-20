@@ -1,7 +1,7 @@
 ---
 title: How Many of You in UIC
 desc: We had sorted out the English names of UIC students from 2013 to 2017, see how many people have the same name as you.
-icon_path: https://uichcc.com/img/name_inquiry.png
+icon_path: images/name_inquiry.png
 date: 2018-04-02T00:00:00+08:00
 author: UICHCC UICHCC Computer Club Developed in cooperation with UICer New Media Studio
 featurePhoto: true
