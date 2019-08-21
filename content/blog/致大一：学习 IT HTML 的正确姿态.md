@@ -18,29 +18,42 @@ feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 注意 `HTML` 中标签的闭合，大部分标签都有对应一个闭合标签，也有少部分标签不用闭合。常用的标签有：
 
 ```html
-<p></p> paragraph, 段落
-<br> break, 空一行
-<hr> horizontal rule, 水平分割线
-<h1></h1> 到 <h6></h6> head, 标题
-<img /> image, 图片
-<ul></ul> unordered list, 无序列表
-<ol></ol> ordered list, 有序列表
-<li></li> list item, 列表项目
-<center></center> 居中
-<table></table> 表格标签，内部标签有
-<tr></tr> table row, 表格的行
-<th></th> table head, 表格的表头单元格
-<td></td> table data cell, 表格的标准单元格
-<a></a> anchor, 锚，可以创建指向一个地址的超链接
-<div></div> division, 分区或节，块级元素，推荐使用此标签进行网页的布局
+<p></p>
+paragraph, 段落 <br />
+break, 空一行
+<hr />
+horizontal rule, 水平分割线
+<h1></h1>
+到
+<h6></h6>
+head, 标题 <img /> image, 图片
+<ul></ul>
+unordered list, 无序列表
+<ol></ol>
+ordered list, 有序列表
+<li></li>
+list item, 列表项目
+<center></center>
+居中
+<table></table>
+表格标签，内部标签有
+<tr></tr>
+table row, 表格的行
+<th></th>
+table head, 表格的表头单元格
+<td></td>
+table data cell, 表格的标准单元格 <a></a> anchor,
+锚，可以创建指向一个地址的超链接
+<div></div>
+division, 分区或节，块级元素，推荐使用此标签进行网页的布局
 ```
 
 了解 CSS 的三种定义方式，优先权 a > b > c
 内联样式
-在 HTML 标签内部，比如 
+在 HTML 标签内部，比如
 `<p style="color: red;">`
 内部样式表
-在 `<head>` 内部，比如 
+在 `<head>` 内部，比如
 `<head><style type="text/css"> p {color: blue;} </style></head>`
 外部样式表
 外部文件，通过 `<link rel="stylesheet" type="text/css" href="mystyle.css" />` 链接，比如
@@ -54,6 +67,7 @@ feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 
 当有多个 `<p>` 标签的时候，如何单独编辑其中一个或几个的 CSS 样式？
 比如有如下 HTML 代码：
+
 ```html
 <p>1</p>
 <p>2</p>
@@ -80,10 +94,16 @@ feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 然后在 CSS 代码中我们可以这样去定位每个 `<p>` 标签并进行编辑
 
 ```css
-p#one {color: #111;}
-p#two {color: #111;}
-p#three0 {color: #111;}
-... 
+p#one {
+  color: #111;
+}
+p#two {
+  color: #111;
+}
+p#three0 {
+  color: #111;
+}
+...;
 ```
 
 这样，我们就可以实现单独编辑其中某一个标签的样式啦
@@ -116,4 +136,4 @@ p.three {color: #333;}
 
 使用 `<div>` 标签进行网站的布局，通过 id 和 class 对每个 `<div>` 设置其位置和不同的样式。
 
-如果在写小组作业的时候能够将以上5点全部应用，包括第1点里面的所有标签，并配上自己精心布置的 CSS 样式，相信你们的作业一定会得到一个不错的分数！有任何问题的话可以直接留言到本公众号，我们看到后会耐心的帮你们解答哦。
+如果在写小组作业的时候能够将以上 5 点全部应用，包括第 1 点里面的所有标签，并配上自己精心布置的 CSS 样式，相信你们的作业一定会得到一个不错的分数！有任何问题的话可以直接留言到本公众号，我们看到后会耐心的帮你们解答哦。

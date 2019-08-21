@@ -10,9 +10,11 @@ feature_photo_url: "https://ooo.0o0.ooo/2017/06/15/594297574bf46.jpg"
 Email
 
 ##### Want to leave a comment or join us:
+
 ## hi@uichcc.com
 
 ##### Want to cooperate with us:
+
 ## collaboration@uichcc.com
 
 ---
@@ -26,9 +28,11 @@ WeChat Public Account
 ---
 
 GitHub Organization
+
 ## <i class="fab fa-github"></i>: [UICHCC](https://github.com/UICHCC)
 
 ---
 
 YouTube Channel
+
 ## <i class="fab fa-youtube"></i>: [UICHCC Computer Club](https://www.youtube.com/channel/UCeZiC67sMq9E_RFJCpDDoqQ)

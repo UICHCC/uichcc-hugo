@@ -2,7 +2,7 @@
 title: "Knowledge is Power: Introduction to Information Security - By Junde Yhi"
 date: 2018-01-01T00:00:00+08:00
 anchor: "2018kipitisjdy"
-weight: 
+weight:
 ---
 
 Topic: **Knowledge is Power: Introduction to Information Security**

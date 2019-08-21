@@ -6,6 +6,7 @@ featurePhoto: true
 subtitle: ""
 feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 ---
+
 ![招新](https://i.loli.net/2018/01/12/5a585064e9445.jpg)
 
 大家好，
@@ -14,7 +15,7 @@ feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 
 协会即日起开放招新。
 如果你有意向加入我们，
-请发邮件至 hi@uichcc.com 
+请发邮件至 hi@uichcc.com
 预约面试时间。
 
 欲了解协会相关信息，

@@ -16,17 +16,17 @@ UICHCC/HCC-Regulations:
 
 {{< twbs-table "table table-striped table-hover" >}}
 
-| # | Group Name |
-|---|------------|
-| 1 | Core       |
-| 2 | UX/UI Design Group           |
-| 3 | Infrastructure Maintenance Group           |
-| 4 | Content Mining Group           |
-| 5 | PR (Public Relationship) & Promotion Group           |
-| 6 | Homepage Development Group           |
-| 7 | Online Judge Development Group           |
-| 8 | UIC Portal APP Development Group           |
-| 9 | Open Source Community Group           |
-| 10 | TeX User Group |
+| #   | Group Name                                 |
+| --- | ------------------------------------------ |
+| 1   | Core                                       |
+| 2   | UX/UI Design Group                         |
+| 3   | Infrastructure Maintenance Group           |
+| 4   | Content Mining Group                       |
+| 5   | PR (Public Relationship) & Promotion Group |
+| 6   | Homepage Development Group                 |
+| 7   | Online Judge Development Group             |
+| 8   | UIC Portal APP Development Group           |
+| 9   | Open Source Community Group                |
+| 10  | TeX User Group                             |
 
 {{< /twbs-table >}}

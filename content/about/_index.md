@@ -7,7 +7,7 @@ carouselSlides:
   - heading: People behind HCC.
     desc: 👩‍💻 & 👨‍💻.
     image_path: https://i.loli.net/2019/08/19/PiIYTyMlFgHSAmd.jpg
-  
+
   - heading: We Create.
     desc: Nothing can stop our innovative mind. We continuously "think different" and develop projects in a variety of fields, not only software.
     image_path: https://i.loli.net/2017/09/16/59bcdffd19488.jpg

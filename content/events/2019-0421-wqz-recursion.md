@@ -2,10 +2,10 @@
 title: "Recursion - By Qizheng Wang"
 date: 2019-04-21T19:00:00+08:00
 anchor: "2019rqzw"
-weight: 
+weight:
 ---
 
-Topic: **Recursion** 
+Topic: **Recursion**
 
 Speaker: Qizheng Wang (`CST Year 2`)
 

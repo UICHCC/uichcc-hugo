@@ -2,9 +2,10 @@
 title: "Collaborating and Converging - By Terence Lau"
 date: 2018-11-11T20:00:00+08:00
 anchor: "Terence Lau"
-weight: 
+weight:
 ---
-Topic: **Collaborating and Converging** 
+
+Topic: **Collaborating and Converging**
 
 Speaker: Terence Lau (`STAT Year 3`)
 

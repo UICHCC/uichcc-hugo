@@ -2,9 +2,10 @@
 title: "Speaking of Git 2.0 - By Minyong Li"
 date: 2019-02-24T19:00:00+08:00
 anchor: "2019sog2myl"
-weight: 
+weight:
 ---
-Topic: **Speaking of Git** 
+
+Topic: **Speaking of Git**
 
 Speaker: Minyong Li (`CST Year 3`)
 

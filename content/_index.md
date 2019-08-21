@@ -28,7 +28,7 @@ carouselSlides:
       - color: info
         content: Learn More
         href: /projects/course/
-  
+
   - heading: Technological Salon
     ctype: "HCC Events:"
     desc: Information and resources

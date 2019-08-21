@@ -2,7 +2,7 @@
 title: "Speaking of Git VCS - By Zhong Junru"
 date: 2018-01-01T00:00:10+08:00
 anchor: "2018sogvzjr"
-weight: 
+weight:
 ---
 
 Topic: **Speaking of Git VCS**

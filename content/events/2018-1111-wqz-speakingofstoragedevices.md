@@ -2,8 +2,9 @@
 title: "Speaking of Storage Devices - By Wang Qizheng"
 date: 2018-11-11T19:00:00+08:00
 anchor: "2018sosdwqz"
-weight: 
+weight:
 ---
+
 Topic: **Speaking of Storage Devices**
 
 Speaker: Wang Qizheng (`CST Year 2`)

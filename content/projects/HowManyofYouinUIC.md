@@ -10,4 +10,4 @@ project_url: https://uichcc.com/projects/names
 github_url: https://github.com/UICHCC/uic_name_inquiry/
 ---
 
-![Interface of How Many of You in UIC](https://uichcc.com/uploads/img/uichcc.com_uic_name_inquiry_(iPhone%208).png)
+![Interface of How Many of You in UIC](<https://uichcc.com/uploads/img/uichcc.com_uic_name_inquiry_(iPhone%208).png>)

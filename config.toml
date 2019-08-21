@@ -69,3 +69,7 @@ pygmentsOptions = "linenos=true"
 
 [permalinks]
   blog = "/:year/:month/:day/:title/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

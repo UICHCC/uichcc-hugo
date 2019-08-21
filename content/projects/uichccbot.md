@@ -6,6 +6,6 @@ date: 2017-06-26T00:00:00+08:00
 author: UICHCC
 featurePhoto: true
 feature_photo_url: https://i.loli.net/2017/09/11/59b6a89a479a9.jpg
-project_url: 
+project_url:
 github_url: https://github.com/UICHCC/LCBot
 ---
