@@ -2,10 +2,6 @@
 title: "{{ replace .Name "-" " " | title }}"
 subtitle: "Subtitle for a new post"
 author: UICHCC
-categories:
-- default
-tags:
-- default
 date: {{ .Date }}
 draft: true
 enableJoinUs: false
