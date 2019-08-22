@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+enableFA: false
 enableJoinUs: false
 carousel: false
 featurePhoto: true

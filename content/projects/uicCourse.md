@@ -1,5 +1,6 @@
 ---
 title: uicCourse
+enableFA: false
 desc: A course information query system for you.
 icon_path: images/na.png
 date: 2019-08-16T00:00:00+08:00

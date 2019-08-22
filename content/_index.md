@@ -1,5 +1,6 @@
 ---
 title: "Homepage"
+enableFA: false
 enableJoinUs: true
 carousel: true
 featurePhoto: false

@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+enableFA: false
 enableJoinUs: true
 carousel: false
 featurePhoto: true

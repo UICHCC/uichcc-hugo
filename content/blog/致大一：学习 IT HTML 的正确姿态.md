@@ -2,6 +2,7 @@
 title: 致大一：学习 IT HTML 的正确姿态
 date: 2016-11-25T00:00:00+08:00
 author: Destiny
+enableFA: false
 featurePhoto: true
 subtitle: ""
 feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"

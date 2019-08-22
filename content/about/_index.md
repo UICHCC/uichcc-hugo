@@ -1,5 +1,6 @@
 ---
 title: "About"
+enableFA: true
 enableJoinUs: false
 carousel: true
 featurePhoto: false

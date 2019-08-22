@@ -2,6 +2,7 @@
 title: UIC 新生电脑选择指北
 date: 2017-07-15T00:00:00+08:00
 author: UICHCC
+enableFA: false
 featurePhoto: true
 subtitle: "UICer 的电脑该怎么选？"
 feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"

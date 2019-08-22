@@ -2,6 +2,7 @@
 title: UIC专属头像合成器 · 原理解析
 date: 2016-12-07T00:00:00+08:00
 author: 高超
+enableFA: false
 featurePhoto: true
 subtitle: ""
 feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"

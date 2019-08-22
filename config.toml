@@ -5,12 +5,17 @@ theme = "uichccSkeleton"
 
 enableGitInfo = true
 
-
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 PygmentesUseClasses = false
 pygmentsStyle = "github"
 pygmentsOptions = "linenos=true"
+
+[params]
+  ghrepo = "https://github.com/uichcc/uichcc-hugo/"
+  siteKeyword = "UIC, Computer, CS, Computer Science, UICHCC Computer Club, United International College"
+  siteDescription = "UIC HCC 计算机俱乐部网站"
+  organizationName = "UIC HCC Computer Club"
 
 
 [menu]
@@ -63,9 +68,6 @@ pygmentsOptions = "linenos=true"
     title = "Contact UICHCC"
     url = "/contacts/"
     weight = -50
-
-[params]
-  ghrepo = "https://github.com/uichcc/uichcc-hugo/"
 
 [permalinks]
   blog = "/:year/:month/:day/:title/"

@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="UIC, Computer, CS, CST, Computer Science, 计算机, 联合国际学院, 计算机科学, 计算机科学与技术 ">
-    <meta name="description" content="UIC HCC 计算机俱乐部网站">
+    <meta name="keywords" content="{{ $.Site.Params.siteKeyword }}">
+    <meta name="description" content="{{ $.Site.Params.siteDescription }}">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
@@ -10,8 +10,10 @@
     <!-- Bootstrap core CSS -->
     <link href="{{ "css/bootstrap.min.css" | relURL }}" rel="stylesheet">
 
+    {{ if $.Params.enableFA }}
     <!-- Font-awesome CSS -->
     <script src="https://kit.fontawesome.com/ec567a7594.js"></script>
+    {{ end }}
 
     <!-- Syntax Highlight style github -->
     <link href="{{ "css/syntax.css" | relURL }}" rel="stylesheet">

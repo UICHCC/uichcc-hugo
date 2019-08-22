@@ -1,5 +1,6 @@
 ---
 title: "Contact Us"
+enableFA: true
 enableJoinUs: false
 carousel: false
 featurePhoto: true

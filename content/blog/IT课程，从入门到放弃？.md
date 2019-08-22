@@ -2,6 +2,7 @@
 title: IT课程，从入门到放弃？
 date: 2016-11-24T00:00:00+08:00
 author: Destiny
+enableFA: false
 featurePhoto: true
 subtitle: "别放弃，还能抢救一下"
 feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"

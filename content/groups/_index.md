@@ -1,5 +1,6 @@
 ---
 title: "Groups"
+enableFA: false
 enableJoinUs: true
 carousel: false
 featurePhoto: true
@@ -7,12 +8,17 @@ subtitle: "@ UICHCC Computer Club"
 feature_photo_url: "https://i.loli.net/2017/09/12/59b6b4c572efe.jpg"
 ---
 
-**IMPORTANT**: The content of this page is outdated. Please check our GitHub repository for the latest Data.
 
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+<strong>IMPORTANT:</strong> The content of this page is outdated. Please check our GitHub repository for the latest Data.
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+<hr>
 UICHCC/HCC-Regulations:
-
-- [English Version](https://github.com/UICHCC/HCC-Regulations/blob/master/Groups-eng.md)
-- [Chinese Version](https://github.com/UICHCC/HCC-Regulations/blob/master/Groups-cmn-Hans.md)
+<a class="btn btn-outline-secondary btn-sm mb-0" href="https://github.com/UICHCC/HCC-Regulations/blob/master/Groups-eng.md">English version</a>
+<a class="btn btn-outline-secondary btn-sm mb-0" href="https://github.com/UICHCC/HCC-Regulations/blob/master/Groups-cmn-Hans.md">Chinese version</a>
+</div>
 
 {{< twbs-table "table table-striped table-hover" >}}
 
