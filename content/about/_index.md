@@ -35,7 +35,7 @@ carouselSlides:
 <div class="thx" style="line-height: 30px">
 <p>This site uses the following open source projects, CC0 Photos Library, free CDN &amp; image storage services. Click to check out these awesome projects.</p>
 <a href="https://getbootstrap.com/"><img src="thx/boostrap.svg" height="30px"></a> &middot;
-<a href="https://hexo.io/"><img src="thx/hexo.svg" height="30px"></a> &middot;
+<a href="https://gohugo.io/"><img src="thx/hugo.svg" height="30px"></a> &middot;
 <a href="http://www.bootcdn.cn/"><img src="thx/bootcdn.svg" height="30px"></a> &middot;
 <a href="https://unsplash.com/"><img src="thx/unsplash.svg" height="30px"></a> &middot;
 <a href="http://fontawesome.io/"><img src="thx/fontawesome.svg" height="30px"></a> &middot;
