@@ -1,5 +1,12 @@
 <hr class="featurette-divider">
-<p class="text-muted">{{ T "update" }} {{ .Lastmod.Format "January 2, 2006" }}{{ with .GitInfo }}: <abbr title="{{ .Subject }}">{{ .AbbreviatedHash }}</abbr>; <a href="{{$.Site.Params.ghrepo}}commit/{{ .Hash }}">Check it at GitHub</a>{{ end }}</p>
+<p class="text-muted">{{ T "update" }} {{ .Lastmod.Format "January 2, 2006" }}{{ with .GitInfo }}: <abbr title="{{ .Subject }}">{{ .AbbreviatedHash }}</abbr>; <a href="{{$.Site.Params.ghrepo}}commit/{{ .Hash }}">Check it at GitHub</a></p>
+<p class="text-muted">{{ end }}
+    {{ if .IsTranslated }}
+      {{ T "otherlanguage" }}
+      {{ range .Translations }}
+          <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+      {{ end }}
+    {{ end }}</p>
 <div class="float-lg-right">
     <span>{{ T "host" }}</span>
     <a href="https://github.io/" style="display: inline">

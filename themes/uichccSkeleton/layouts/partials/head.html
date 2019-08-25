@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    {{ if .IsTranslated }}
+        {{ range .Translations }}
+            <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+        {{ end }}
+    {{ end }}
     <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 
     <!-- Bootstrap core CSS -->

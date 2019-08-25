@@ -21,6 +21,7 @@ DefaultContentLanguage = "en"
   [languages.en]
     title = "UICHCC Computer Club"
     weight = 1
+    languageName = "English / 英语"
     contentDir = "content/en"
     [languages.en.params]
       siteKeyword = "UIC, Computer, CS, Computer Science, UICHCC Computer Club, United International College"
@@ -71,6 +72,7 @@ DefaultContentLanguage = "en"
   [languages.cn]
     title = "UICHCC 计算机俱乐部"
     weight = 2
+    languageName = "Chinese / 简体中文"
     contentDir = "content/cn"
     [languages.cn.params]
       siteKeyword = "联合国际学院, 计算机, 计算机科学, UICHCC 计算机俱乐部, 北师港浸大"

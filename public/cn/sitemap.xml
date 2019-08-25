@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/projects/uiccourse/</loc>
-    <lastmod>2019-08-16T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,38 +18,8 @@
   </url>
   
   <url>
-    <loc>https://uichcc.com/cn/</loc>
-    <lastmod>2019-08-16T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uichcc.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://uichcc.com/cn/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://uichcc.com/cn/projects/</loc>
-    <lastmod>2019-08-16T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uichcc.com/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://uichcc.com/cn/projects/"
-                />
-  </url>
-  
-  <url>
     <loc>https://uichcc.com/cn/events/2019-0421-wqz-recursion/</loc>
-    <lastmod>2019-04-21T19:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -63,23 +33,8 @@
   </url>
   
   <url>
-    <loc>https://uichcc.com/cn/events/</loc>
-    <lastmod>2019-04-21T19:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uichcc.com/events/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://uichcc.com/cn/events/"
-                />
-  </url>
-  
-  <url>
     <loc>https://uichcc.com/cn/events/2019-0224-lmy-speakingofgit/</loc>
-    <lastmod>2019-02-24T19:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -94,7 +49,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/events/2018-1118-wzh-bscc/</loc>
-    <lastmod>2018-11-18T20:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -109,7 +64,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/events/2018-1118-lmy-pyiwv/</loc>
-    <lastmod>2018-11-18T19:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -124,7 +79,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/events/2018-1111-ljj-collaboratingandconverging/</loc>
-    <lastmod>2018-11-11T20:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -139,7 +94,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/events/2018-1111-wqz-speakingofstoragedevices/</loc>
-    <lastmod>2018-11-11T19:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -153,23 +108,8 @@
   </url>
   
   <url>
-    <loc>https://uichcc.com/cn/blog/</loc>
-    <lastmod>2018-05-07T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uichcc.com/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://uichcc.com/cn/blog/"
-                />
-  </url>
-  
-  <url>
     <loc>https://uichcc.com/cn/2018/05/07/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2018-05-07T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -184,7 +124,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/projects/howmanyofyouinuic/</loc>
-    <lastmod>2018-04-02T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -199,7 +139,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2018/04/02/%E6%89%BE%E6%89%BE%E5%92%8C%E4%BD%A0%E5%90%8C%E5%90%8D%E7%9A%84%E4%BA%BA%E6%8A%80%E6%9C%AF%E7%AF%87/</loc>
-    <lastmod>2018-04-02T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -214,7 +154,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/events/archive-zjr-speakingofgit/</loc>
-    <lastmod>2018-01-01T00:00:10+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -229,7 +169,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/events/archive-lmy-knowledgeispowerintroductiontoinformationsecurity/</loc>
-    <lastmod>2018-01-01T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -244,7 +184,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2017/11/20/uic-hcc-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8D%8F%E4%BC%9A%E6%8B%9B%E6%96%B0%E4%BA%86/</loc>
-    <lastmod>2017-11-20T00:00:01+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -259,7 +199,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2017/07/15/uic-%E6%96%B0%E7%94%9F%E7%94%B5%E8%84%91%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97/</loc>
-    <lastmod>2017-07-15T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -274,7 +214,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/projects/uichccbot/</loc>
-    <lastmod>2017-06-26T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -289,7 +229,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2017/05/15/%E8%BF%99%E4%B8%AA%E7%97%85%E6%AF%92%E8%AE%A9%E4%BD%A0%E6%80%80%E7%96%91%E4%BA%BA%E7%94%9F/</loc>
-    <lastmod>2017-05-15T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -304,7 +244,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2017/03/19/%E4%BD%A0%E8%BF%98%E5%9C%A8%E4%B8%BA%E6%AD%A3%E7%89%88%E8%BD%AF%E4%BB%B6%E8%80%8C%E5%8F%91%E6%84%81/</loc>
-    <lastmod>2017-03-19T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -319,7 +259,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2017/02/26/%E5%85%B3%E4%BA%8E%E6%8E%92%E7%89%88%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%B0%8F%E7%A7%98%E5%AF%86%E4%BA%8C/</loc>
-    <lastmod>2017-02-26T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -334,7 +274,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/projects/gpacalculator/</loc>
-    <lastmod>2017-02-22T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -349,7 +289,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2017/02/22/%E5%B0%8F%E5%B7%A5%E5%85%B7-%E5%B1%9E%E4%BA%8E-uic-%E7%9A%84-gpa-%E8%AE%A1%E7%AE%97%E5%99%A8/</loc>
-    <lastmod>2017-02-22T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -364,7 +304,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2017/02/18/%E5%85%B3%E4%BA%8E%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%B0%8F%E7%A7%98%E5%AF%86/</loc>
-    <lastmod>2017-02-18T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -379,7 +319,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/projects/uichs/</loc>
-    <lastmod>2016-12-07T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -394,7 +334,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2016/12/07/uic%E4%B8%93%E5%B1%9E%E5%A4%B4%E5%83%8F%E5%90%88%E6%88%90%E5%99%A8/</loc>
-    <lastmod>2016-12-07T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -409,7 +349,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2016/12/07/uic%E4%B8%93%E5%B1%9E%E5%A4%B4%E5%83%8F%E5%90%88%E6%88%90%E5%99%A8-%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/</loc>
-    <lastmod>2016-12-07T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -424,7 +364,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2016/12/02/it%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/</loc>
-    <lastmod>2016-12-02T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -439,7 +379,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2016/12/01/%E8%B6%A3%E9%97%BB%E4%B8%AD%E5%9B%BD%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B0%81%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6/</loc>
-    <lastmod>2016-12-01T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -454,7 +394,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2016/11/25/%E8%87%B4%E5%A4%A7%E4%B8%80%E5%AD%A6%E4%B9%A0-it-html-%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E6%80%81/</loc>
-    <lastmod>2016-11-25T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -469,7 +409,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/2016/11/24/it%E8%AF%BE%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/</loc>
-    <lastmod>2016-11-24T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -499,6 +439,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/contacts/github/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -528,6 +469,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/contacts/telegram/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -542,6 +484,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/about/branding/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -556,6 +499,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/contacts/youtube/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -569,7 +513,23 @@
   </url>
   
   <url>
+    <loc>https://uichcc.com/cn/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uichcc.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://uichcc.com/cn/"
+                />
+  </url>
+  
+  <url>
     <loc>https://uichcc.com/cn/about/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -584,6 +544,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/about/reservation/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -597,7 +558,23 @@
   </url>
   
   <url>
+    <loc>https://uichcc.com/cn/blog/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uichcc.com/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://uichcc.com/cn/blog/"
+                />
+  </url>
+  
+  <url>
     <loc>https://uichcc.com/cn/groups/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -612,6 +589,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/contacts/wechat/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -625,7 +603,23 @@
   </url>
   
   <url>
+    <loc>https://uichcc.com/cn/events/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uichcc.com/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://uichcc.com/cn/events/"
+                />
+  </url>
+  
+  <url>
     <loc>https://uichcc.com/cn/contacts/email/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -640,6 +634,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/contacts/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -649,6 +644,21 @@
                 rel="alternate"
                 hreflang="cn"
                 href="https://uichcc.com/cn/contacts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uichcc.com/cn/projects/</loc>
+    <lastmod>2019-08-25T16:48:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uichcc.com/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://uichcc.com/cn/projects/"
                 />
   </url>
   
