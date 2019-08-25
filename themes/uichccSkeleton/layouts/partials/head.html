@@ -20,6 +20,10 @@
     <script src="https://kit.fontawesome.com/ec567a7594.js"></script>
     {{ end }}
 
+    {{ if eq .Language.Lang "cn"}}
+    <link href="{{ "css/global-cn-style.css" | relURL }}" rel="stylesheet">
+    {{ end }}
+
     <!-- Syntax Highlight style github -->
     <link href="{{ "css/syntax.css" | relURL }}" rel="stylesheet">
 

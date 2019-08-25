@@ -1,0 +1,55 @@
+/**
+ * yue.css
+ *
+ * yue.css is designed for readable content.
+ *
+ * https://github.com/lepture/yue.css
+ *
+ * Copyright (c) 2013 - 2017 by Hsiaoming Yang.
+ */
+
+ body {
+    font: 400 18px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Droid Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB",
+      "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans",
+      "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback",
+      "Microsoft YaHei", sans-serif;
+  }
+  @media (min-width: 1100px) {
+    blockquote {
+      margin-left: -24px;
+      padding-left: 20px;
+      border-width: 4px;
+    }
+    blockquote blockquote {
+      margin-left: 0;
+    }
+  }
+  
+  [lang^="zh"] p,
+  [lang^="ja"] p {
+    text-align: justify;
+    text-justify: inter-ideographic;
+  }
+  
+  [lang^="zh"] em,
+  [lang^="ja"] em {
+    font-style: normal;
+    font-family: Baskerville, Georgia, Kaiti SC, STKaiti, AR PL UKai CN,
+      AR PL UKai HK, AR PL UKai TW, AR PL UKai TW MBE, AR PL KaitiM GB, KaiTi,
+      KaiTi_GB2312, DFKai-SB, TW\\-Kai, serif;
+    -webkit-text-emphasis: dot #555;
+    text-emphasis: dot #555;
+    -webkit-text-emphasis-position: under;
+    text-emphasis-position: under;
+  }
+  
