@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Contact Us on UICHCC 计算机俱乐部</title>
+    <title>Contact Us on UICHCC Computer Club</title>
     <link>https://uichcc.com/contacts/</link>
-    <description>Recent content in Contact Us on UICHCC 计算机俱乐部</description>
+    <description>Recent content in Contact Us on UICHCC Computer Club</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     
 	<atom:link href="https://uichcc.com/contacts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uichcc.com/contacts/email/</guid>
-      <description>Want to leave a comment or join us: hi@uichcc.com Want to cooperate with us: collaboration@uichcc.com Be a presenter at UICHCC Salon: affairs@uichcc.com Report bug for uicCourse: uic-course@uichcc.com </description>
+      <description> Want to leave a comment or join us: hi@uichcc.com Want to cooperate with us: collaboration@uichcc.comBe a presenter at UICHCC Salon: affairs@uichcc.com Report bug for uicCourse: uic-course@uichcc.com  </description>
     </item>
     
     <item>
@@ -25,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uichcc.com/contacts/github/</guid>
-      <description>: UICHCC </description>
+      <description> : UICHCC </description>
     </item>
     
     <item>
@@ -34,7 +33,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uichcc.com/contacts/telegram/</guid>
-      <description>: UICHCC Friends </description>
+      <description> : UICHCC Friends </description>
     </item>
     
     <item>
@@ -43,7 +42,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uichcc.com/contacts/wechat/</guid>
-      <description>ID:uichcc </description>
+      <description> ID:uichcc  </description>
     </item>
     
     <item>
@@ -52,7 +51,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uichcc.com/contacts/youtube/</guid>
-      <description>: UICHCC Computer Club </description>
+      <description> : UICHCC Computer Club </description>
     </item>
     
   </channel>

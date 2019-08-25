@@ -1,5 +1,5 @@
 baseURL = "https://uichcc.com/"
-languageCode = "en-us"
+# languageCode = "en-us"
 title = "UICHCC 计算机俱乐部"
 theme = "uichccSkeleton"
 
@@ -11,11 +11,113 @@ PygmentesUseClasses = false
 pygmentsStyle = "github"
 pygmentsOptions = "linenos=true"
 
+DefaultContentLanguage = "en"
+
 [params]
   ghrepo = "https://github.com/uichcc/uichcc-hugo/"
-  siteKeyword = "UIC, Computer, CS, Computer Science, UICHCC Computer Club, United International College"
-  siteDescription = "UIC HCC 计算机俱乐部网站"
-  organizationName = "UIC HCC Computer Club"
+
+
+[languages]
+  [languages.en]
+    title = "UICHCC Computer Club"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.params]
+      siteKeyword = "UIC, Computer, CS, Computer Science, UICHCC Computer Club, United International College"
+      siteDescription = "UICHCC Computer Club Homepage"
+      organizationName = "UIC HCC Computer Club"
+    [[languages.en.menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Homepage"
+    url = "/"
+    weight = -110
+    [[languages.en.menu.main]]
+      identifier = "events"
+      name = "Events"
+      title = "Events"
+      url = "/events/"
+      weight = -100
+    [[languages.en.menu.main]]
+      identifier = "blog"
+      name = "Blog"
+      title = "Articles by UICHCC"
+      url = "/blog/"
+      weight = -90
+    [[languages.en.menu.main]]
+      identifier = "projects"
+      name = "Projects"
+      title = "Projects in UICHCC"
+      url = "/projects/"
+      weight = -80
+    [[languages.en.menu.main]]
+      identifier = "groups"
+      name = "Groups"
+      title = "UICHCC Groups"
+      url = "/groups/"
+      weight = -70
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      title = "About UICHCC"
+      url = "/about/"
+      weight = -60
+    [[languages.en.menu.main]]
+      identifier = "contact_us"
+      name = "Contact Us"
+      title = "Contact UICHCC"
+      url = "/contacts/"
+      weight = -50
+  [languages.cn]
+    title = "UICHCC 计算机俱乐部"
+    weight = 2
+    contentDir = "content/cn"
+    [languages.cn.params]
+      siteKeyword = "联合国际学院, 计算机, 计算机科学, UICHCC 计算机俱乐部, 北师港浸大"
+      siteDescription = "UICHCC 计算机俱乐部网站"
+      organizationName = "UIC HCC 计算机俱乐部"
+    [[languages.cn.menu.main]]
+      identifier = "home"
+      name = "首页"
+      title = "首页"
+      url = "/"
+      weight = -110
+    [[languages.cn.menu.main]]
+      identifier = "events"
+      name = "活动"
+      title = "活动"
+      url = "/events/"
+      weight = -100
+    [[languages.cn.menu.main]]
+      identifier = "blog"
+      name = "博客"
+      title = "来自 UICHCC 的文章"
+      url = "/blog/"
+      weight = -90
+    [[languages.cn.menu.main]]
+      identifier = "projects"
+      name = "项目"
+      title = "UICHCC 的项目"
+      url = "/projects/"
+      weight = -80
+    [[languages.cn.menu.main]]
+      identifier = "groups"
+      name = "小组"
+      title = "小组"
+      url = "/groups/"
+      weight = -70
+    [[languages.cn.menu.main]]
+      identifier = "about"
+      name = "关于我们"
+      title = "关于 UICHCC"
+      url = "/about/"
+      weight = -60
+    [[languages.cn.menu.main]]
+      identifier = "contact_us"
+      name = "联系我们"
+      title = "联系 UICHCC"
+      url = "/contacts/"
+      weight = -50
 
 
 [menu]

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>项目 on UICHCC 计算机俱乐部</title>
+    <link>https://uichcc.com/cn/projects/</link>
+    <description>Recent content in 项目 on UICHCC 计算机俱乐部</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://uichcc.com/cn/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>uicCourse</title>
+      <link>https://uichcc.com/cn/projects/uiccourse/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/cn/projects/uiccourse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UIC 与你同名的人</title>
+      <link>https://uichcc.com/cn/projects/howmanyofyouinuic/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/cn/projects/howmanyofyouinuic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LCbot UIC HCC 定制版</title>
+      <link>https://uichcc.com/cn/projects/uichccbot/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/cn/projects/uichccbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPA 计算器</title>
+      <link>https://uichcc.com/cn/projects/gpacalculator/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/cn/projects/gpacalculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UIC 头像生成器</title>
+      <link>https://uichcc.com/cn/projects/uichs/</link>
+      <pubDate>Wed, 07 Dec 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/cn/projects/uichs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

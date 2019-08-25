@@ -1,7 +1,7 @@
 <hr class="featurette-divider">
-<p class="text-muted">This page was last updated on {{ .Lastmod.Format "January 2, 2006" }}{{ with .GitInfo }}: <abbr title="{{ .Subject }}">{{ .AbbreviatedHash }}</abbr>; <a href="{{$.Site.Params.ghrepo}}commit/{{ .Hash }}">Check it at GitHub</a>{{ end }}</p>
+<p class="text-muted">{{ T "update" }} {{ .Lastmod.Format "January 2, 2006" }}{{ with .GitInfo }}: <abbr title="{{ .Subject }}">{{ .AbbreviatedHash }}</abbr>; <a href="{{$.Site.Params.ghrepo}}commit/{{ .Hash }}">Check it at GitHub</a>{{ end }}</p>
 <div class="float-lg-right">
-    <span>Hosting on</span>
+    <span>{{ T "host" }}</span>
     <a href="https://github.io/" style="display: inline">
       <img src="{{ "img/githubpages.svg" | absURL}}" style="height: 21px;">
     </a>

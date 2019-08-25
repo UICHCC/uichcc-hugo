@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>联系我们 on UICHCC 计算机俱乐部</title>
+    <link>https://uichcc.com/cn/contacts/</link>
+    <description>Recent content in 联系我们 on UICHCC 计算机俱乐部</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://uichcc.com/cn/contacts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub 组织页面</title>
+      <link>https://uichcc.com/cn/contacts/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/cn/contacts/github/</guid>
+      <description> : UICHCC </description>
+    </item>
+    
+    <item>
+      <title>Telegram 群聊</title>
+      <link>https://uichcc.com/cn/contacts/telegram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/cn/contacts/telegram/</guid>
+      <description> : UICHCC Friends </description>
+    </item>
+    
+    <item>
+      <title>YouTube 视频频道</title>
+      <link>https://uichcc.com/cn/contacts/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/cn/contacts/youtube/</guid>
+      <description> : UICHCC Computer Club </description>
+    </item>
+    
+    <item>
+      <title>微信公众号</title>
+      <link>https://uichcc.com/cn/contacts/wechat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/cn/contacts/wechat/</guid>
+      <description> ID:uichcc  </description>
+    </item>
+    
+    <item>
+      <title>电子邮件</title>
+      <link>https://uichcc.com/cn/contacts/email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uichcc.com/cn/contacts/email/</guid>
+      <description> 联系我们或加入我们： hi@uichcc.com 与我们合作： collaboration@uichcc.com成为 UIC HCC 技术沙龙的讲者： affairs@uichcc.com uicCourse 相关的内容（意见或建议）： uic-course@uichcc.com  </description>
+    </item>
+    
+  </channel>
+</rss>

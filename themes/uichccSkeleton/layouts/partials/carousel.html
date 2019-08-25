@@ -19,7 +19,7 @@
                 </p>
                 <p>
                   {{ range $j, $f := $e.btns }}
-                  <a class="btn btn-{{ $f.color }}" href="{{ $f.href }}" role="button">{{ $f.content }}</a>
+                  <a class="btn btn-{{ $f.color }}" href="{{ $f.href | relLangURL }}" role="button">{{ $f.content }}</a>
                   {{ end }}
                 </p>
               </div>
