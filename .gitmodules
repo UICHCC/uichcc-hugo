@@ -1,0 +1,3 @@
+[submodule "themes/uichccSkeleton"]
+	path = themes/uichccSkeleton
+	url = https://github.com/UICHCC/uichccSkeleton
