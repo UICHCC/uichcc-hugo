@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://uichcc.com/cn/events/2019-0915-lmy-tcab/</loc>
+    <lastmod>2019-09-11T12:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uichcc.com/events/2019-0915-lmy-tcab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://uichcc.com/cn/events/2019-0915-lmy-tcab/"
+                />
+  </url>
+  
+  <url>
     <loc>https://uichcc.com/cn/projects/uiccourse/</loc>
     <lastmod>2019-08-25T16:48:21+08:00</lastmod>
     <xhtml:link

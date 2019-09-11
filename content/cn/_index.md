@@ -18,6 +18,15 @@ features:
     body: 所有北师港浸大的学生都必修 IT 课程。为了帮助学生掌握现代 IT 技术。我们为所有的学生设置了课程答疑的课程。因为我们真诚的希望所有学生都能在这门课上获得好成绩，熟练掌握 IT 知识。
 
 carouselSlides:
+  - heading: 技术沙龙：大教堂与集市
+    ctype: "HCC 活动:"
+    desc: 开源软件运动简述 - 主讲人 Minyong Li
+    image_path: https://i.loli.net/2019/09/11/pbfZChIHXWK23Y4.jpg
+    btns:
+      - color: primary
+        content: 了解更多
+        href: /events/
+
   - heading: uicCourse
     ctype: "HCC 项目:"
     desc: 为你打造的课程信息检索系统
@@ -29,15 +38,6 @@ carouselSlides:
       - color: info
         content: 了解更多
         href: /projects/uiccourse/
-
-  - heading: 技术沙龙
-    ctype: "HCC 活动:"
-    desc: 相关信息和资源
-    image_path: https://i.loli.net/2019/08/19/nliKQBgYjW5bxMe.jpg
-    btns:
-      - color: primary
-        content: 了解更多
-        href: /events/
 
   - heading: UIC HCC 计算机俱乐部
     desc: 一个北师港浸大内的学生兴趣俱乐部
