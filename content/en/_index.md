@@ -18,10 +18,10 @@ features:
     body: All BNU-HKBU UIC students must take IT course as their compulsory course. To help students grasp IT techniques—modern, essential knowledge, we have set up tutoring classes for those who have difficulties understanding IT things. We sincerely hope that no one will fail this course, because IT is the future, and you are too.
 
 carouselSlides:
-  - heading: "Technological Salon: The Cathedral and the Bazaar"
+  - heading: "Technological Salon: Alice, Bob & Eve's Story"
     ctype: "HCC Events:"
-    desc: A Brief Introduction to Open-source Movement by Minyong Li
-    image_path: https://i.loli.net/2019/09/11/pbfZChIHXWK23Y4.jpg
+    desc: Three Fictional Characters and Cryptography by Terence Lau
+    image_path: https://i.loli.net/2019/09/21/ZpzThMixG1uc6Pn.jpg
     btns:
       - color: primary
         content: Learn More
