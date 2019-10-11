@@ -18,10 +18,10 @@ features:
     body: 所有北师港浸大的学生都必修 IT 课程。为了帮助学生掌握现代 IT 技术。我们为所有的学生设置了课程答疑的课程。因为我们真诚的希望所有学生都能在这门课上获得好成绩，熟练掌握 IT 知识。
 
 carouselSlides:
-  - heading: 技术沙龙：漫谈 “三角恋”
+  - heading: 技术沙龙：如何从远程系统获取数据？
     ctype: "HCC 活动:"
-    desc: 三个虚构人物与密码学 - 主讲人 Terence Lau
-    image_path: https://i.loli.net/2019/09/21/ZpzThMixG1uc6Pn.jpg
+    desc: 下载知识科普 - 主讲人 McHobby Long
+    image_path: https://i.loli.net/2019/10/11/lprqEytIfRTi8g7.jpg
     btns:
       - color: primary
         content: 了解更多
