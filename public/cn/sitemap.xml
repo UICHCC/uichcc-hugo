@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://uichcc.com/cn/events/2019-1013-mclong-download/</loc>
+    <lastmod>2019-10-11T23:02:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uichcc.com/events/2019-1013-mclong-download/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://uichcc.com/cn/events/2019-1013-mclong-download/"
+                />
+  </url>
+  
+  <url>
     <loc>https://uichcc.com/cn/events/2019-0922-ljj-abe/</loc>
-    <lastmod>2019-09-22T20:03:41+08:00</lastmod>
+    <lastmod>2019-10-11T23:02:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -544,7 +559,7 @@
   
   <url>
     <loc>https://uichcc.com/cn/</loc>
-    <lastmod>2019-09-21T11:51:29+08:00</lastmod>
+    <lastmod>2019-10-11T23:02:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
