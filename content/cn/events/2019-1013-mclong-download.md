@@ -13,7 +13,8 @@ Location: T8-305 (BNU-HKBU UIC)
 
 Time: 2019.10.13 19:00-21:00
 
-Resources:
-TBA
+Resources: [Slide](https://github.com/UICHCC/HCC-Lectures/blob/master/Introduction-to-Download/20191013_Download.pdf)
+
+Video: [YouTube](https://www.youtube.com/watch?v=jlISQF6bBoc)
 
 ![POSTER](https://i.loli.net/2019/10/11/D2ENsRV9xIczASa.png)
