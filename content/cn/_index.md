@@ -18,9 +18,9 @@ features:
     body: 所有北师港浸大的学生都必修 IT 课程。为了帮助学生掌握现代 IT 技术。我们为所有的学生设置了课程答疑的课程。因为我们真诚的希望所有学生都能在这门课上获得好成绩，熟练掌握 IT 知识。
 
 carouselSlides:
-  - heading: 技术沙龙：如何从远程系统获取数据？
-    ctype: "HCC 活动:"
-    desc: 下载知识科普 - 主讲人 McHobby Long
+  - heading: 技术沙龙：你所不知道的C语言？
+    ctype: "HCC 在线直播活动:"
+    desc: "主讲人 Minyong Li"
     image_path: https://i.loli.net/2019/10/11/lprqEytIfRTi8g7.jpg
     btns:
       - color: primary
