@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-
-cd public
+echo -e "Deploying updates to GitHub..."
 
 if [ -n "$GITHUB_AUTH_SECRET" ]
 then
@@ -15,8 +13,15 @@ then
     git config user.name "UICHCC-bot"
 fi
 
+git clone https://github.com/UICHCC/uichcc.github.io.git
+cd uichcc.github.io
+rm -rf *
+cd ..
 
+cd public
+cp -r public/. uichcc.github.io/
 
+cd uichcc.github.io
 git add .
 git commit -m "Rebuild site"
 git push --force origin HEAD:master
