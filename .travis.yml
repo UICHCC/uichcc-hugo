@@ -7,8 +7,11 @@ script:
   - hugo
 
 deploy:
-  - provider: script
-    script: chmod +x ./deploy.sh && ./deploy.sh
+  - provider: pages
     skip_cleanup: true
+    github_token: $HCC_TOKEN
+    keep_history: true
+    local_dir: public
+    repo: UICHCC/uichcc.github.io
     on:
       branch: master
