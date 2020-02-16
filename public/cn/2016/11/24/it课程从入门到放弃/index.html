@@ -126,17 +126,12 @@
   <main>
       
       <p class="mb-3">November 24, 2016 | by: Destiny</p>
-      
-
-<p>最近听说各位 DST 以及 DHSS 的小鲜肉们受困于 IT 课最后的网页 project，作为 UIC 唯一的计算机兴趣组织——计算机俱乐部，帮助各位同学解决这个难题是我们的责任。今天要为大家介绍一种全新的写网页的方式：Bootstrap 框架。他可以让网页开发变得十分方便，并且网页会相当美观。
+      <p>最近听说各位 DST 以及 DHSS 的小鲜肉们受困于 IT 课最后的网页 project，作为 UIC 唯一的计算机兴趣组织——计算机俱乐部，帮助各位同学解决这个难题是我们的责任。今天要为大家介绍一种全新的写网页的方式：Bootstrap 框架。他可以让网页开发变得十分方便，并且网页会相当美观。
 让我们先来简单的看一下什么是 Bootstrap。
 Bootstrap 是 Twitter 推出的一个用于前端开发的开源工具包。它由 Twitter 的设计师 Mark Otto 和 Jacob Thornton 合作开发,是一个 CSS/HTML 框架。
 话不多说，下面开始我们的正式教程。</p>
-
-<hr />
-
-<h2 id="第一步-下载-bootstrap">第一步：下载 Bootstrap</h2>
-
+<hr>
+<h2 id="第一步下载-bootstrap">第一步：下载 Bootstrap</h2>
 <p>百度搜索 Bootstrap，我们会看到他的中文网站
 点击进入，点击 Bootstrap3 中文文档（V3.3.5）
 点击下载 Bootstrap，选择用于生产环境的 Bootstrap，然后点击下载
@@ -145,7 +140,7 @@ Bootstrap 是 Twitter 推出的一个用于前端开发的开源工具包。它�
 然后我们在 Notepad++中复制如下的代码，然后粘贴进这个文件。</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -173,7 +168,7 @@ Bootstrap 是 Twitter 推出的一个用于前端开发的开源工具包。它�
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#999;font-weight:bold;font-style:italic">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#000080">html</span>&gt;
   &lt;<span style="color:#000080">head</span>&gt;
@@ -182,31 +177,29 @@ Bootstrap 是 Twitter 推出的一个用于前端开发的开源工具包。它�
     &lt;<span style="color:#000080">meta</span> <span style="color:#008080">name</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;viewport&#34;</span> <span style="color:#008080">content</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;width=device-width, initial-scale=1&#34;</span> /&gt;
     &lt;<span style="color:#000080">title</span>&gt;Bootstrap 101 Template&lt;/<span style="color:#000080">title</span>&gt;
 
-    <span style="color:#998;font-style:italic">&lt;!-- Bootstrap --&gt;</span>
+    <span style="color:#998;font-style:italic">&lt;!--</span><span style="color:#998;font-style:italic"> Bootstrap </span><span style="color:#998;font-style:italic">--&gt;</span>
     &lt;<span style="color:#000080">link</span> <span style="color:#008080">href</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;css/bootstrap.min.css&#34;</span> <span style="color:#008080">rel</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;stylesheet&#34;</span> /&gt;
 
-    <span style="color:#998;font-style:italic">&lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;</span>
-    <span style="color:#998;font-style:italic">&lt;!-- WARNING: Respond.js doesn&#39;t work if you view the page via file:// --&gt;</span>
-    <span style="color:#998;font-style:italic">&lt;!--[if lt IE 9]&gt;
+    <span style="color:#998;font-style:italic">&lt;!--</span><span style="color:#998;font-style:italic"> HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries </span><span style="color:#998;font-style:italic">--&gt;</span>
+    <span style="color:#998;font-style:italic">&lt;!--</span><span style="color:#998;font-style:italic"> WARNING: Respond.js doesn&#39;t work if you view the page via file:// </span><span style="color:#998;font-style:italic">--&gt;</span>
+    <span style="color:#998;font-style:italic">&lt;!--</span><span style="color:#998;font-style:italic">[if lt IE 9]&gt;
 </span><span style="color:#998;font-style:italic">      &lt;script src=&#34;http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js&#34;&gt;&lt;/script&gt;
 </span><span style="color:#998;font-style:italic">      &lt;script src=&#34;http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js&#34;&gt;&lt;/script&gt;
-</span><span style="color:#998;font-style:italic">    &lt;![endif]--&gt;</span>
+</span><span style="color:#998;font-style:italic">    &lt;![endif]</span><span style="color:#998;font-style:italic">--&gt;</span>
   &lt;/<span style="color:#000080">head</span>&gt;
   &lt;<span style="color:#000080">body</span>&gt;
     &lt;<span style="color:#000080">h1</span>&gt;你好，世界！&lt;/<span style="color:#000080">h1</span>&gt;
 
-    <span style="color:#998;font-style:italic">&lt;!-- jQuery (necessary for Bootstrap&#39;s JavaScript plugins) --&gt;</span>
+    <span style="color:#998;font-style:italic">&lt;!--</span><span style="color:#998;font-style:italic"> jQuery (necessary for Bootstrap&#39;s JavaScript plugins) </span><span style="color:#998;font-style:italic">--&gt;</span>
     &lt;<span style="color:#000080">script</span> <span style="color:#008080">src</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js&#34;</span>&gt;&lt;/<span style="color:#000080">script</span>&gt;
-    <span style="color:#998;font-style:italic">&lt;!-- Include all compiled plugins (below), or include individual files as needed --&gt;</span>
+    <span style="color:#998;font-style:italic">&lt;!--</span><span style="color:#998;font-style:italic"> Include all compiled plugins (below), or include individual files as needed </span><span style="color:#998;font-style:italic">--&gt;</span>
     &lt;<span style="color:#000080">script</span> <span style="color:#008080">src</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;js/bootstrap.min.js&#34;</span>&gt;&lt;/<span style="color:#000080">script</span>&gt;
   &lt;/<span style="color:#000080">body</span>&gt;
-&lt;/<span style="color:#000080">html</span>&gt;</code></pre></td></tr></table>
+&lt;/<span style="color:#000080">html</span>&gt;
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>中间的 body 部分就是我们需要编辑的部分了。至此，我们已经完成了第一步！</p>
-
-<h2 id="第二步-运用-bootstrap-可视化布局网页">第二步：运用 Bootstrap 可视化布局网页</h2>
-
+</div><p>中间的 body 部分就是我们需要编辑的部分了。至此，我们已经完成了第一步！</p>
+<h2 id="第二步运用-bootstrap-可视化布局网页">第二步：运用 Bootstrap 可视化布局网页</h2>
 <p>百度 Bootstrap 之后，我们发现在官方网站下面有一个 Bootstrap 可视化布局系统的网页，点击进入！
 中间的空白部分就是你的网页了，我们可以用左边的工具进行网页的规划。
 首先是布局设置
@@ -215,18 +208,14 @@ Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，�
 接着我们规划网页的其他部分，这里我们采用<strong>2 6 4</strong>布局，将他拖入右边的白色部分。这部分就作为网页的正文部分。
 我们的网页可能还需要一个页脚，所以我们再把一个 12 拖进右边，放在最下面。
 至此，网页的布局设置就已经完成了！</p>
-
-<h2 id="第三步-往网页中添加各种组件">第三步：往网页中添加各种组件</h2>
-
+<h2 id="第三步往网页中添加各种组件">第三步：往网页中添加各种组件</h2>
 <p>首先，我们先添加一个导航栏。点击交互组件，把导航栏拖动到第一行中。
 然后我们可以在第二行的左边添加一个导航列表。点击组件，把导航列表拖进对应位置。
 中间的部分我们可以放置网页的正文，我们可以先拖入一个标题栏，然后点击编辑设置文字，然后根据自己网页的需求放置相应的组件。
 这里小编随意设置了几个组件放在里面。右边的部分我们也可以根据这个步骤添加自己喜欢的组件。
 最后，我们要在第三行设置网页的页脚选择基本 CSS，把段落拖进第三行，对齐方式选择居中，然后编辑文字。最后我们得到的成品如下：
 第三步就完成了！</p>
-
-<h2 id="第四步-下载代码并且修改">第四步：下载代码并且修改</h2>
-
+<h2 id="第四步下载代码并且修改">第四步：下载代码并且修改</h2>
 <p>我们点击页面上方的下载，选择自适应宽度，然后复制里面的代码，粘贴到我们创建的 HTML 文件的<code>body</code>位置并且替换选中部分。
 这个可视化布局系统生成的代码版本有点老，所以我们需要对一些地方做一些修改。
 按 Ctrl+F 打开查找和替换工具，将所有的<code>class=&quot;span</code>替换为<code>class=”col-md-</code>然后点击全部替换（注意这里一定不要把全词匹配打钩），然后我们点击全部替换。
@@ -273,7 +262,7 @@ Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，�
 </h6>
 
   </div>
-<p>&copy; 2017-2019 UIC HCC 计算机俱乐部</p></div>
+<p>&copy; 2017-2020 UIC HCC 计算机俱乐部</p></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>

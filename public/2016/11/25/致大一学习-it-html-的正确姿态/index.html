@@ -125,17 +125,13 @@
       
       <p class="mb-3">November 25, 2016 | by: Destiny</p>
       <p>想必有 IT 课的大一小鲜肉们最近一定有在忙 IT 的最后一项网页作业。IT 作为一门通识教育课程，初衷就是让所有同学对信息技术或者通俗来说，电脑知识有入门的了解，包括日常使用的一些软件基础和一直很流行的 web 开发基础。聊胜于无，我们具备这方面的知识或者技能是不会吃亏的。</p>
-
 <p>昨天我们有一则推送告诉大家如何在不写或者少写代码的情况下完成一个网页 UI (User-Interface, 用户界面) 的搭建。不得不说，对于刚刚接触 HTML (HyperText Markup Language, 超文本标记语言) + CSS (Cascading Style Sheet, 层叠样式表) 开发的童鞋来说 (今天不提 JS 哦，JavaScript)，用生成器布局网页可以省下不少麻烦，比如大量的代码作业。</p>
-
 <p><strong>但是</strong>，生成器对于 IT 课作业可是一个错误的示范哦，因为我们完成这个作业不是要求做的有多么的精致多么的漂亮，更重要的是要自己亲自上手去完成一个网页项目。所以，我们给同学们的<strong>建议</strong>是，在不使用生成器的前提下，对于有经验或对网页颜值要求较高的同学可以尝试使用一些 UI 框架（什么是 UI 框架？顾名思义就是人家已经写好的 CSS 样式和效果你可以直接拿来用），比如 Bootstrap，Semantic UI 和 Amaze UI 等等，记住使用框架不是使用生成器哦；对于不想借用框架的同学，这个作业是一个极好的锻炼机会。</p>
-
 <p>上干货，这里给出几点 tips 供同学们在完成作业的时候参考。</p>
-
 <p>注意 <code>HTML</code> 中标签的闭合，大部分标签都有对应一个闭合标签，也有少部分标签不用闭合。常用的标签有：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -164,7 +160,7 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#000080">p</span>&gt;&lt;/<span style="color:#000080">p</span>&gt;
 paragraph, 段落 &lt;<span style="color:#000080">br</span> /&gt;
 break, 空一行
@@ -192,10 +188,10 @@ table head, 表格的表头单元格
 table data cell, 表格的标准单元格 &lt;<span style="color:#000080">a</span>&gt;&lt;/<span style="color:#000080">a</span>&gt; anchor,
 锚，可以创建指向一个地址的超链接
 &lt;<span style="color:#000080">div</span>&gt;&lt;/<span style="color:#000080">div</span>&gt;
-division, 分区或节，块级元素，推荐使用此标签进行网页的布局</code></pre></td></tr></table>
+division, 分区或节，块级元素，推荐使用此标签进行网页的布局
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>了解 CSS 的三种定义方式，优先权 a &gt; b &gt; c
+</div><p>了解 CSS 的三种定义方式，优先权 a &gt; b &gt; c
 内联样式
 在 HTML 标签内部，比如
 <code>&lt;p style=&quot;color: red;&quot;&gt;</code>
@@ -206,17 +202,14 @@ division, 分区或节，块级元素，推荐使用此标签进行网页的布�
 外部文件，通过 <code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;mystyle.css&quot; /&gt;</code> 链接，比如
 在 <code>mystyle.css</code> 文件中可以有
 <code>p {color: yellow;}</code></p>
-
-<p>按照优先级 a &gt; b &gt; c，上面例子中最终 <p> 标签的字体颜色会是 red 红色而不是蓝色也不是黄色。</p>
-
+<p>按照优先级 a &gt; b &gt; c，上面例子中最终 <!-- raw HTML omitted --> 标签的字体颜色会是 red 红色而不是蓝色也不是黄色。</p>
 <p>点击发送邮件的链接代码是
 <code>&lt;a href=&quot;mailto:uichcc@qq.com&quot;&gt;Click to mail me&lt;/a&gt;</code></p>
-
 <p>当有多个 <code>&lt;p&gt;</code> 标签的时候，如何单独编辑其中一个或几个的 CSS 样式？
 比如有如下 HTML 代码：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -224,21 +217,21 @@ division, 分区或节，块级元素，推荐使用此标签进行网页的布�
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#000080">p</span>&gt;1&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span>&gt;2&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span>&gt;4&lt;/<span style="color:#000080">p</span>&gt;
-&lt;<span style="color:#000080">p</span>&gt;5&lt;/<span style="color:#000080">p</span>&gt;</code></pre></td></tr></table>
+&lt;<span style="color:#000080">p</span>&gt;5&lt;/<span style="color:#000080">p</span>&gt;
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>单独编辑一个
+</div><p>单独编辑一个
 需要使用 id 属性去标记 <code>&lt;p&gt;</code> 标签，每个标签的 id 必须是不重复的，如下</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -246,20 +239,20 @@ division, 分区或节，块级元素，推荐使用此标签进行网页的布�
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;one&#34;</span>&gt;1&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;two&#34;</span>&gt;2&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;three0&#34;</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;three1&#34;</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;three2&#34;</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;four&#34;</span>&gt;4&lt;/<span style="color:#000080">p</span>&gt;
-&lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;five&#34;</span>&gt;5&lt;/<span style="color:#000080">p</span>&gt;</code></pre></td></tr></table>
+&lt;<span style="color:#000080">p</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;five&#34;</span>&gt;5&lt;/<span style="color:#000080">p</span>&gt;
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>然后在 CSS 代码中我们可以这样去定位每个 <code>&lt;p&gt;</code> 标签并进行编辑</p>
+</div><p>然后在 CSS 代码中我们可以这样去定位每个 <code>&lt;p&gt;</code> 标签并进行编辑</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -270,7 +263,7 @@ division, 分区或节，块级元素，推荐使用此标签进行网页的布�
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#000080">p</span>#<span style="color:#555">one</span> {
   <span style="color:#000;font-weight:bold">color</span>: <span style="color:#099">#111</span>;
 }
@@ -280,16 +273,15 @@ division, 分区或节，块级元素，推荐使用此标签进行网页的布�
 <span style="color:#000080">p</span>#<span style="color:#555">three0</span> {
   <span style="color:#000;font-weight:bold">color</span>: <span style="color:#099">#111</span>;
 }
-<span style="color:#000;font-weight:bold">...;</span></code></pre></td></tr></table>
+<span style="color:#000;font-weight:bold">.</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>这样，我们就可以实现单独编辑其中某一个标签的样式啦</p>
-
+</div><p>这样，我们就可以实现单独编辑其中某一个标签的样式啦</p>
 <p>同时编辑多个
 需要使用 class 属性去标记 <code>&lt;p&gt;</code> 标签，每个标签的 class 可以重复，如下</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -297,37 +289,34 @@ division, 分区或节，块级元素，推荐使用此标签进行网页的布�
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;one&#34;</span>&gt;1&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;two&#34;</span>&gt;2&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;three&#34;</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;three&#34;</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;three&#34;</span>&gt;3&lt;/<span style="color:#000080">p</span>&gt;
 &lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;four&#34;</span>&gt;4&lt;/<span style="color:#000080">p</span>&gt;
-&lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;five&#34;</span>&gt;5&lt;/<span style="color:#000080">p</span>&gt;</code></pre></td></tr></table>
+&lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;five&#34;</span>&gt;5&lt;/<span style="color:#000080">p</span>&gt;
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>然后在 CSS 代码中我们可以这样去定位每类 <code>&lt;p&gt;</code> 标签并编辑</p>
+</div><p>然后在 CSS 代码中我们可以这样去定位每类 <code>&lt;p&gt;</code> 标签并编辑</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#000080">p</span>.<span style="color:#458;font-weight:bold">one</span> {<span style="color:#000;font-weight:bold">color</span>: <span style="color:#099">#111</span>;}
 <span style="color:#000080">p</span>.<span style="color:#458;font-weight:bold">two</span> {<span style="color:#000;font-weight:bold">color</span>: <span style="color:#099">#222</span>;}
 <span style="color:#000080">p</span>.<span style="color:#458;font-weight:bold">three</span> {<span style="color:#000;font-weight:bold">color</span>: <span style="color:#099">#333</span>;}
-<span style="color:#000;font-weight:bold">...</span></code></pre></td></tr></table>
+<span style="color:#000;font-weight:bold">.</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000;font-weight:bold">.</span>
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>这样，我们就可以高效率的同时编辑其中的内容为 3 的 <p> 标签啦</p>
-
+</div><p>这样，我们就可以高效率的同时编辑其中的内容为 3 的 <!-- raw HTML omitted --> 标签啦</p>
 <p>上面的例子同样适用于其他标签，比如更常用的 <code>&lt;div&gt;</code> 标签。id 和 class 属性可以同时标记一个标签，但是二者的值最好不要相同，也就是说最好不要出现 <code>&lt;p id=&quot;one&quot; class=&quot;one&quot;&gt;1&lt;/p&gt;</code> 这种情况。</p>
-
 <p>使用 <code>&lt;div&gt;</code> 标签进行网站的布局，通过 id 和 class 对每个 <code>&lt;div&gt;</code> 设置其位置和不同的样式。</p>
-
 <p>如果在写小组作业的时候能够将以上 5 点全部应用，包括第 1 点里面的所有标签，并配上自己精心布置的 CSS 样式，相信你们的作业一定会得到一个不错的分数！有任何问题的话可以直接留言到本公众号，我们看到后会耐心的帮你们解答哦。</p>
 
   </main>
@@ -376,7 +365,7 @@ division, 分区或节，块级元素，推荐使用此标签进行网页的布�
 </h6>
 
   </div>
-<p>&copy; 2017-2019 UIC HCC Computer Club</p></div>
+<p>&copy; 2017-2020 UIC HCC Computer Club</p></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>

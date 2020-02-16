@@ -126,72 +126,44 @@
   <main>
       
       <p class="mb-3">April 2, 2018 | by: ECWU</p>
-      
-
-<p>去年 UICer 联系到我们，提出了想要与我们一起开发一个能对学校学生英文名进行检索的小工具的想法，作为 UIC 学生英文名报告的补充。但之前一直没有想到优雅的实现方式，直到前段时间找到了解决方案。</p>
-
+      <p>去年 UICer 联系到我们，提出了想要与我们一起开发一个能对学校学生英文名进行检索的小工具的想法，作为 UIC 学生英文名报告的补充。但之前一直没有想到优雅的实现方式，直到前段时间找到了解决方案。</p>
 <p>在小工具发布之际，我们想给大家分享一下它是怎么实现的。</p>
-
 <p>如果不算上<code>版权和隐私声明</code>页面，这个查询工具可以看作一个单页面的应用，技术上是完全依靠<strong>前端</strong>实现的。但是我们可以进行一下拆分，从界面层和数据层来为大家讲解实现的原理。</p>
-
 <blockquote>
 <p>在软件架构和程序设计领域，前端是软件系统中直接和用户交互的部分，而后端控制着软件的输出。将软件分为前端和后端是一种将软件不同功能的部分相互分离的抽象。</p>
-
 <p>&mdash;- Wikipedia 《前端和后端》</p>
 </blockquote>
-
 <h2 id="界面层">界面层</h2>
-
 <p>网站的主界面用到了已经迭代到 <code>V4.0</code> 版本的 Bootstrap。这个开源项目是由 GitHub 设计总监 Mark Otto 供职于 Twitter 时发起，现在已经成为网页开发中最常用的前端框架之一。</p>
-
-<p><img src="http://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" alt="Bootstrap Logo" /></p>
-
+<p><img src="http://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" alt="Bootstrap Logo"></p>
 <p>使用 Bootstrap 可以非常快速的开发出美观的响应式网页。像小工具中的输入框，按钮，使用的都是 Bootstrap 的默认样式。而且在排版页面内容时，用上了 Bootstrap 的栅格系统。可以说 Bootstrap 大大方便了我们的开发工作，不擅长设计的开发人员也能轻松做出漂亮的页面。</p>
-
 <blockquote>
 <p>响应式网页设计，或称自适应网页设计、回应式网页设计、对应式网页设计。 是一种网页设计的技术做法，该设计可使网站在不同的设备上浏览时对应不同分辨率皆有适合的呈现，减少用户进行缩放、平移和滚动等操作行为。</p>
-
 <p>&mdash;- Wikipedia 《响应式网页设计》</p>
 </blockquote>
-
 <p>我们还用到了大名鼎鼎的 jQuery（一套跨浏览器的 JavaScript 库，简化了 HTML 与 JavaScript 之间的操作，是目前最受欢迎的 JavaScript 库）。</p>
-
 <blockquote>
 <p>JavaScript 是允许你在网页中实现复杂事情的一门编程语言 —— 每次当你浏览网页时不只是显示静态信息—— 显示即时更新的内容， 或者交互式的地图，或 2D/3D 图形动画，又或者自动播放视频等，你可以确信，JavaScript 参与其中。</p>
-
 <p>&mdash;- MDN web docs 《什么是 JavaScript？》</p>
 </blockquote>
-
 <p>网页中能移动，变化的都是通过 jQuery 实现的（例如页面的载入动画，按下搜索键后页面返回相应信息）。我们在使用 jQuery 时，首先通过 jQuery 选择器来准确选取需要操作的元素，再通过内带的修改内容的函数，对页面的元素进行修改。</p>
-
 <h2 id="数据层">数据层</h2>
-
 <p>该怎么储存大量的数据也是一开始困扰我们的问题。一开始有想过网页发送 Ajax 请求，通过 PHP 来读取数据库中存取的内容并返回 JSON 数据，再通过 JavaScript 实现异步刷新。但是这样我们需要多为一个服务器付出人力和物力。</p>
-
 <blockquote>
 <p><strong>JSON</strong> (<strong>J</strong>ava<strong>S</strong>cript <strong>O</strong>bject <strong>N</strong>otation) 是一种语法，用来序列化对象、数组、数值、字符串、布尔值和 <code>null</code> 。它基于 JavaScript 语法，但与之不同：<strong>JavaScript 不是 JSON，JSON 也不是 JavaScript</strong>。</p>
-
 <p>&mdash;- MDN web docs 《JSON - 描述》</p>
-
 <p><strong>Ajax</strong> (<strong>A</strong>synchronous <strong>J</strong>avaScript <strong>A</strong>nd <strong>X</strong>ML) 用来描述一种使用现有技术集合的‘新’方法，这种方法可以在<strong>不重新刷新页面的情况下</strong>与服务器通信，交换数据，更新页面。</p>
-
 <p>&mdash;- MDN web docs 《Ajax - Getting Started》</p>
 </blockquote>
-
 <p>然后我们换了个思路：能否将数据保存在网页，然后通过 JavaScript 进行检索并更新页面内容呢？</p>
-
 <p>经过一番寻找，LINQ.js 出现在我们的眼前。LINQ 本身是 <code>.NET 4.0</code> 的一个方法，允许开发者从一个或多个给定的数据源中检索数据。LINQ.js 就是将这个方法使用 JavaScript 进行了实现。</p>
-
 <p>于是我们将数据（只有英文名和对应的数量）转换成了 JSON 格式进行了储存（以<code>&quot;name&quot;:&lt;str:name&gt;,&quot;count&quot;:&lt;str:count&gt;</code> 的格式储存，共 2392 行）。然后通过 LINQ.js 的函数进行检索。</p>
-
 <p>当你输入了内容，按下搜索的那一刻，会执行搜索函数 <code>InquiryName(rawName)</code>。</p>
-
 <p>在检索函数中会进行两次搜索（调用 <code>InquiryEntry()</code> 函数），一次是根据用户的原始输入进行搜索，第二次是将首字母格式化后（将每个词的首字母大写）再进行搜索。之所以这样做的原因是，存在一些同学的名字是全部大写的，如果格式化后，他名字是无法的。于是我们进行两次搜索，提高名字能被搜索到可能性（需要区分大小写）。</p>
-
 <p>下面展示了<code>InquiryEntry()</code> 函数的具体实现：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -202,7 +174,7 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">function</span> InquiryEntry(input) {
   <span style="color:#000;font-weight:bold">return</span> Enumerable.From(dataSet) <span style="color:#998;font-style:italic">// 从 dataSet 这个 JSON 数组中（里面存储了所有的数据）
 </span><span style="color:#998;font-style:italic"></span>    .Where(<span style="color:#000;font-weight:bold">function</span>(x) {
@@ -215,28 +187,19 @@
 </span><span style="color:#998;font-style:italic"></span>}
 </code></pre></td></tr></table>
 </div>
-</div>
-<p>等函数接收到返回的数值时，jQuery 就会将内容放置到相应的位置，并显示给用户。</p>
-
+</div><p>等函数接收到返回的数值时，jQuery 就会将内容放置到相应的位置，并显示给用户。</p>
 <p>至此，英文名的一次搜索就完成了。</p>
-
-<hr />
-
+<hr>
 <p>除了上面提到的开源项目。我们还使用了 Unsplash 的图片 API 作为我们页面背景图片的来源。BootCDN 为网站中使用的开源前端项目提供 CDN 加速。网站托管在 GitHub Pages，使用 Cloudflare CDN 进行内容分发。</p>
-
 <blockquote>
 <p>当一个项目被开源，这意味着任何人都可以出于任何目的查看，使用，修改和分发你的项目。 这些权限通过开源许可强制实施。</p>
-
 <p>开源是强大的，因为它降低了事物被采纳的障碍，允许想法迅速传播。</p>
-
 <p>&mdash;- GitHub 开源指南 《什么是开源，为什么要开源》</p>
 </blockquote>
-
 <p>仓库地址：
 <a href="https://github.com/UICHCC/uic_name_inquiry">https://github.com/UICHCC/uic_name_inquiry</a></p>
-
 <p>联系我们：
-coollabaration@uichcc.com</p>
+<a href="mailto:coollabaration@uichcc.com">coollabaration@uichcc.com</a></p>
 
   </main>
   <div class="row mt-5">
@@ -284,7 +247,7 @@ coollabaration@uichcc.com</p>
 </h6>
 
   </div>
-<p>&copy; 2017-2019 UIC HCC 计算机俱乐部</p></div>
+<p>&copy; 2017-2020 UIC HCC 计算机俱乐部</p></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>

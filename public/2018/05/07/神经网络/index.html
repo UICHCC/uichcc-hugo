@@ -125,106 +125,56 @@
       
       <p class="mb-3">May 7, 2018 | by: 徐龙昊</p>
       <p>现如今，人工智能已经成为人们热议的话题之一，而其中出现频率比较高的便是神经网络。本文的主要目的是在高中数学水平下使大家可以了解神经网络的基本结构与工作原理，文章将从生物神经元的基本构造入手，之后在通过仿生的观点，来构建计算机神经网络。</p>
-
 <p>首先我们先来谈一下生物神经网络（Biological Neural Networks）。在神经科学中，生物神经网络是一系列相互连接的神经元，它们的激活定义了一个可识别的线性通路。其中，最简单的便是单一的神经元。【如下图】</p>
-
-<p><img src="https://i.loli.net/2018/05/07/5af07460dd07b.jpg" alt="ezgif-5-290232ace1.jpg" /></p>
-
+<p><img src="https://i.loli.net/2018/05/07/5af07460dd07b.jpg" alt="ezgif-5-290232ace1.jpg"></p>
 <p>从上图我们可以得知，单个神经元的结构大致可分为：树突、轴突、神经末梢及细胞体。让我们来简要回顾一下各个结构的作用：</p>
-
 <p>树突：从其他的神经元接受信号，当这些和达到阈值时，神经元被激活。</p>
-
 <p>轴突：信号从轴突向下传播到其他神经元。</p>
-
 <p>单个神经元，接收来自其他神经元或来自外部源的输入，并计算输出。每个输入都有一个相关的权重，它根据对其他输入的相对重要性来分配。重要的是，突触强度是可学习的。在基本模型中，神经元的状态取决于从其它的神经元收到的输入信号量，当信号量总和超过了某个阈值时，细胞体就会激动，产生电脉冲，电脉冲沿着轴突并通过突触传递到其它神经元。</p>
-
 <p>需要注意的是，单个神经元可被视为有且只有两种状态的机器——激动时为‘是’，而未激动时为‘否’，这一观点被之后的人工神经网络所继承。</p>
-
 <p>以上便是生物神经网络的基本结构，可以这样说生物神经网络启发了人工神经网络的设计。于是我们从单一的人工神经元的介绍开始，在人工神经网络中所使用的人工神经元是对生物神经元的绝妙简化。它们是对神经行为的抽象，即将神经行为简化成几个关键特征：（a）它们整合所有输入突触上的信号（求总和），（b）它们根据一个非线性函数对整合后的信号进行变换处理。其中最有名的便是 Frank Rosenblatt 在 1957 年提出的感知器（Perceptrons）。</p>
-
-<p><img src="https://i.loli.net/2018/05/07/5af074a64c29d.jpg" alt="ezgif-5-0e6c3500d3.jpg" /></p>
-
+<p><img src="https://i.loli.net/2018/05/07/5af074a64c29d.jpg" alt="ezgif-5-0e6c3500d3.jpg"></p>
 <p>上图的圆圈就代表一个感知器，它接受多个输入（x1，x2，x3&hellip;），每一个输入对应不同的权重(w1,w2,..,wn)，wi 可以理解为是该突触的强度，将这些求和之后（），输入到激活函数中，产生一个输出，这个便是感知器的基本原理。这些输入好比神经末梢感受各种外部环境的变化，不过每种变化所对应的权重不同，叠加之后，传递给激活函数，最后产生输出信号。</p>
-
 <p>我们使用数学方式描述上述过程：</p>
-
 <p>1.所有的输入乘以其自身的权重之后求和，得到加权和：</p>
-
-<p><img src="https://i.loli.net/2018/05/07/5af074a64acf1.jpg" alt="ezgif-5-f25f0e4c1d.jpg" /></p>
-
+<p><img src="https://i.loli.net/2018/05/07/5af074a64acf1.jpg" alt="ezgif-5-f25f0e4c1d.jpg"></p>
 <p>2.将这个加权和传递给激活函数。</p>
-
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img" /></p>
-
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
 <p>最后需要强调的是，因为比较简单（比如缺乏尖峰放电机制和持久状态），它们并不是生物神经元的实际情况的模型。实际上，神经细胞的细胞核并不参与计算电脉冲，是否产生脉冲已经在突触后膜被决定了，细胞核并不参与数据处理。这就意味着神经网络的基本单位结构所模仿的实际上是神经的树突 dendrites，而非整个神经细胞。</p>
-
 <p>在这里我们只讨论一种十分简单的激活函数，step function。</p>
-
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img" /></p>
-
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
 <p>如图所示，当 z 大于 0 时，step function 输出 1；当 z 小于 0 时，step function 输出 0。更为一般的来说，如果这些叠加信号的强度，大于某个之前设定的阈值时，输出结果就为 1，否则就为 0。下图是使用数学表达式将这个关系表达了出来，显然我们这里设置阈值为 0，即 threshold = 0。</p>
-
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img" /></p>
-
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
 <p>不过 Step function 有个缺点，在阈值处有间断点，于是人们便使用其他效果更好的函数来代替 step function，例如 sigmoid function，我们在这里不深入地进行讨论。</p>
-
 <p>正如前文所讨论的，我们给定一些输入，感知器会给我们返回一个答案，通俗的来讲，感知器就是一个自动做决策的机器，适用于将数据分类为两部分。因此，它也被称为线性二元分类器。如下图所示，在一个二维的平面上，我们有两个输入，如果其结果位于虚线右侧，我们就将其归为红色的一类，如果其结果位于虚线左侧，我们就将其归为蓝色的一类。</p>
-
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img" /></p>
-
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
 <p>现在我们举个例子来解释我们之前的工作。</p>
-
 <p>假设你听说在 UIC 琢乐汇将会有一个肉夹馍打折的活动，早上七点半之前三折优惠。你喜欢肉夹馍，并试图决定是否去吃。你可以通过权衡各个因素来做出决定：</p>
-
 <p>1.肉夹馍的味道好吗？</p>
-
 <p>2.由于早起而造成的睡眠剥夺会影响你睡觉的舒适感吗？</p>
-
 <p>3.你需要省这笔钱吗？</p>
-
 <p>我们可以通过对应的变量 Taste、Sleep deprivation 和 Money shortcut 来表示这三个因素，即有三个输入，这里设置输入为 0 或 1，之后我们会一一解释，最后通过衡量这三种因素来选择我们是否要购买打折肉夹馍。</p>
-
 <p>例如，如果味道好，我们将有 Taste=1，相反如果你认为灼勒会的肉夹馍做的和咖喱鸡一样糟糕，则 Taste ＝ 0。同样，如果早起将完全影响您的睡眠，则 Sleep deprivation ＝ 1；如果您和我一样也是一名虔诚的睡觉信徒，则 Sleep deprivation ＝ 0。以此类推，如果您和我一样过着不抽烟不喝酒不网购的生活而且您恰好和我一样贫穷，相对一顿落糟餐厅 16 块的豪华早餐，吃肉夹馍省下的这笔钱可能对您非常重要，那么此时 Money shortcut=1，如果您自认为比较富裕则 Money shortcut=0。</p>
-
 <p>以我的朋友易建華同学为例，他想使用感知器来模拟这类决策。首先，易建華同学有理由相信当总分超过 10 分(阈值)的时候，他就会毅然决然地选择早起购买打折肉夹馍。现在来考虑决策的方式，作为一个精致中年男孩，早餐的味道是他所看重的，因此权重为 w1=10；作为一个 UICer，易建華同学早已习惯朝六晚廿的生活，睡眠权重为 w2=2；财政状况上他比我稍好一点，权重为 w3=2。他的选择是 Taste=1，Sleep deprivation=1，Money shortcut=0。按照权重配比，最后得出加权和 12 大于 10 分，即超过了阈值。易建華同学战胜了自己，他爱肉夹馍。</p>
-
 <p>通过改变权重和阈值，可以得到不同的决策模型。即使是同一情况的阈值和权重也会不一样，看重睡眠的人倾向在睡眠剥夺 Sleep deprivation 上有更高的权重占比。</p>
-
 <p>到这里我们已经完全介绍了感知器模型，一个感知器其实是对神经元最基本概念的模拟，甚至还没有生成网络的概念，但这个是理解深层网络的基础。</p>
-
 <p>进一步，我们将延续上述的思想，并将上述的模型复杂化，就生成了人工神经网络的基本结构，即将多个感知器模型进行组合，便得到基本的人工神经网络模型。</p>
-
 <p>人工神经网络是一组相互连接的节点，类似于大脑中庞大的神经元网络。这里，每个圆形节点表示人工神经元，箭头表示从一个人工神经元的输出到另一个人工神经元的输入的连接。</p>
-
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img" /></p>
-
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
 <p>这里我们来解释一些术语：</p>
-
 <p>•输入层（Input layer）</p>
-
 <p>输入节点从外界给网络提供信息，并被称为“输入层”。在任何输入节点中都不进行计算，它们只是将信息传递给隐藏的节点。</p>
-
 <p>•隐含层（Hidden Layers）</p>
-
 <p>隐藏层是神经元的集合，它具有激活函数，而且它是在输入层和输出层之间的中间层。它的工作是处理其先前的层所获得的输入。它们执行从输入节点到输出节点的计算和传输信息。在神经网络中也可以有多个隐藏层。</p>
-
 <p>•输出层（Output Layer）</p>
-
 <p>输出节点统称为“输出层”，负责从网络到外部世界的计算和传输信息。</p>
-
 <p>通常，这些神经元会加入偏置单元（bias unit），但是这些内容已经超出了本文讨论的内容，有兴趣的读者可以深入研究。</p>
-
 <p>如果我们考虑的更为复杂，上述的模型便会延伸出更为复杂的神经网络模型，即可以使用神经网络处理更为复杂的问题。【如下图，识别手写数字】</p>
-
-<p><img src="https://i.loli.net/2018/05/07/5af07460ddce6.jpg" alt="ezgif-5-746fb3a41f.jpg" /></p>
-
+<p><img src="https://i.loli.net/2018/05/07/5af07460ddce6.jpg" alt="ezgif-5-746fb3a41f.jpg"></p>
 <p>综上所述，本文只讨论了神经网络的基本框架，在这个框架下，人们已经发展出许多重要的神经网络结构，这里我们不详细讨论。最后，作者要感谢 HCC 提供良好的写作环境，感谢 BKH 的修改意见。文章中既有前辈的工作也有一些个人的看法，作者作为一名在校大学生，难免产生疏漏，如有任何错误请大家多多指正。</p>
-
 <p>作者简介：徐龙昊 UIC-STAT 大二学生，UIC-HCC 资深深度学习工程师；更为人广知的是他另一个名字：Time Traveler</p>
-
 <p>想深入了解作者？请在公众号输入：Time Traveler</p>
-
-<p><img src="https://i.loli.net/2018/05/07/5af074dc45340.png" alt="Untitled-1.png" /></p>
+<p><img src="https://i.loli.net/2018/05/07/5af074dc45340.png" alt="Untitled-1.png"></p>
 
   </main>
   <div class="row mt-5">
@@ -261,7 +211,7 @@
 </h6>
 
   </div>
-<p>&copy; 2017-2019 UIC HCC Computer Club</p></div>
+<p>&copy; 2017-2020 UIC HCC Computer Club</p></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>

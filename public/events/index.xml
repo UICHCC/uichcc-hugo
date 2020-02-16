@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on UICHCC Computer Club</title>
@@ -8,6 +8,18 @@
     
 	<atom:link href="https://uichcc.com/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The C Programming Language That You Don&#39;t Know - By Minyong Li</title>
+      <link>https://uichcc.com/events/2020-0216-lmy-tcpltydk/</link>
+      <pubDate>Sat, 15 Feb 2020 12:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/events/2020-0216-lmy-tcpltydk/</guid>
+      <description>Topic: The C Programming Language That You Don&amp;rsquo;t Know
+Speaker: Minyong Li (CST Year 4)
+Location: Bilibili Live Stream, Room no. 6550910
+Time: 2020.02.16 19:00-21:00</description>
+    </item>
     
     <item>
       <title>How to Receive data from a remote system? - By McHobby Long</title>

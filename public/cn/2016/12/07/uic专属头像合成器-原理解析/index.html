@@ -127,19 +127,17 @@
       
       <p class="mb-3">December 7, 2016 | by: 高超</p>
       <p>这是一个网页，涉及到的语言是 HTML, CSS 和 JavaScript (JS)，使用到的 JS 框架是 jQuery。用到的主要 HTML 元素是 Canvas (画布)，主要的 JS 类是 FileReader。下面主要讲一下 JS 里面的功能代码。</p>
-
 <p>原理是使用画布进行“ps”，获取上传的图片之后，给画布填充白色背景颜色，然后将图片按照指定比例缩小并画在画布上面，此时的图片内容缩小后的头像，最后将 logo 图片画在右上角，即可完成 UIC logo 专属头像的合成。</p>
-
 <p>首先，新建一个画布。</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#000;font-weight:bold">var</span> c <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">document</span>.cresateElement(<span style="color:#d14">&#34;canvas&#34;</span>);
 <span style="color:#000;font-weight:bold">var</span> ctx <span style="color:#000;font-weight:bold">=</span> c.getContext(<span style="color:#d14">&#34;2d&#34;</span>);
 c.width <span style="color:#000;font-weight:bold">=</span> wid;
@@ -147,19 +145,14 @@ c.height <span style="color:#000;font-weight:bold">=</span> wid;
 ctx.fillStyle <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;white&#34;</span>; <span style="color:#998;font-style:italic">// 将画布的填充颜色设置为白色，之后填充背景颜色时会用到
 </span></code></pre></td></tr></table>
 </div>
-</div>
-<p>wid 是画布的默认宽度，也就是图片的宽度。然后我们将</p>
-
-<p><img src="https://ooo.0o0.ooo/2017/06/17/5944fbb4bfe22.jpg" alt="" /></p>
-
+</div><p>wid 是画布的默认宽度，也就是图片的宽度。然后我们将</p>
+<p><img src="https://ooo.0o0.ooo/2017/06/17/5944fbb4bfe22.jpg" alt=""></p>
 <p>（由于图片格式是 png，故底色呈现为黑色。）</p>
-
 <p>这个图片的地址存下来，以遍之后使用。这里我们把他存在数组 <code>data1[]</code> 中，我们可以通过 <code>data1[0]</code> 来获取这个图片的地址，数据格式是 <code>string</code>。</p>
-
 <p>另外，我们需要<code>&lt;input type=&quot;file&quot; accept=&quot;image/*&quot; id=&quot;uic&quot;&gt;</code>标签实现本地文件上传功能。对应的 JS 代码：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -183,7 +176,7 @@ ctx.fillStyle <span style="color:#000;font-weight:bold">=</span> <span style="co
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">$(<span style="color:#d14">&#34;#uic&#34;</span>).change(<span style="color:#000;font-weight:bold">function</span>() {
  <span style="color:#998;font-style:italic">// 点击上传图片被调用，也就是点击上传图片之后这里面的代码会被运行
 </span><span style="color:#998;font-style:italic"></span> ctx.fill(); <span style="color:#998;font-style:italic">// 填充背景颜色，颜色是白色
@@ -209,14 +202,10 @@ ctx.fillStyle <span style="color:#000;font-weight:bold">=</span> <span style="co
 };
 </code></pre></td></tr></table>
 </div>
-</div>
-<p>问：你的源代码我可以看到吗？
+</div><p>问：你的源代码我可以看到吗？
 可以。</p>
-
-<p><img src="https://ooo.0o0.ooo/2017/06/17/5944fbb4bea9c.jpg" alt="" /></p>
-
+<p><img src="https://ooo.0o0.ooo/2017/06/17/5944fbb4bea9c.jpg" alt=""></p>
 <p>如图，点击“复制链接”，然后将链接发送到微信的电脑端，使用迅雷或其他下载工具新建任务，地址就是这个复制好的链接。下载到后是一个 HTML 文件，可以选择用记事本等工具打开。如果没有下载工具，将地址输入到浏览器。进入到网页后，</p>
-
 <p>点击“检查元素”，即可查看到源代码。</p>
 
   </main>
@@ -265,7 +254,7 @@ ctx.fillStyle <span style="color:#000;font-weight:bold">=</span> <span style="co
 </h6>
 
   </div>
-<p>&copy; 2017-2019 UIC HCC 计算机俱乐部</p></div>
+<p>&copy; 2017-2020 UIC HCC 计算机俱乐部</p></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
