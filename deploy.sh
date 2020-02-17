@@ -15,6 +15,8 @@ then
     git config user.name "UICHCC-bot"
 fi
 
+git remote add upstream https://github.com/UICHCC/uichcc.github.io.git
+
 git add .
 git commit -m "Rebuild site"
 git push --force origin HEAD:master
