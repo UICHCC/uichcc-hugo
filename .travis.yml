@@ -8,7 +8,7 @@ script:
 
 deploy:
   - provider: script
-    script: /bin/sh script.sh
+    script: bash script.sh
     skip_cleanup: true
     on:
       branch: master
