@@ -13,7 +13,7 @@ Location: Bilibili Live Stream, Room no. 6550910 (expired)
 
 Time: 2020.02.16 19:00-21:00
 
-Resources: [Slide](https://github.com/UICHCC/HCC-Lectures)
+Resources: [Slide](https://github.com/UICHCC/HCC-Lectures/blob/master/TCPLTYDK/tcpltydk.pdf)
 
 Video: [YouTube](https://www.youtube.com/watch?v=iQbM6CG9zEs)
 
