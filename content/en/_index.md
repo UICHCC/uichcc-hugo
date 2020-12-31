@@ -34,7 +34,7 @@ carouselSlides:
       - color: success
         content: Try it now
         href: https://course.uichcc.app/
-      - color: info
+      - color: primary
         content: Learn More
         href: /projects/course/
 

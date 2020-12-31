@@ -35,7 +35,7 @@ carouselSlides:
       - color: success
         content: 立即体验
         href: https://course.uichcc.app/
-      - color: info
+      - color: primary
         content: 了解更多
         href: /projects/uiccourse/
 
