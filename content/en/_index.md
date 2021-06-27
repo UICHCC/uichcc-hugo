@@ -36,7 +36,7 @@ carouselSlides:
         href: https://course.uichcc.app/
       - color: primary
         content: Learn More
-        href: /projects/course/
+        href: /projects/uiccourse/
 
   - heading: UIC HCC Computer Club
     desc: An independent interest club in Beijing Normal University – Hong Kong Baptist University United International College.
