@@ -4,7 +4,7 @@ subtitle: "我们希望你也能大放异彩。"
 author: 以俊德
 date: 2021-08-01
 draft: false
-enableJoinUs: true
+enableJoinUs: false
 carousel: false
 featurePhoto: false
 feature_photo_url: ""
@@ -20,3 +20,5 @@ weight:
 现在，我们想邀请你上来分享你想要分享的东西。可以是任何信息技术相关的话题，只要它适合让大家知道。不需要做很多准备，分享的可以是你的兴趣项目，也可以是对某些技术的一点经验。
 
 如果你从未试过站到舞台上，这可能显得有点难。我们的建议是：尽管试一下。[Do it!](https://www.bilibili.com/video/BV16x411q71u)
+
+如果你从未加入我们的频道或者聊天群，请到[“联系我们”页面](/cn/contacts)。
