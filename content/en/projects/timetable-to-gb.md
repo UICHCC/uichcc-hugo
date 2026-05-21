@@ -6,7 +6,7 @@ icon_path: images/timetable.png
 date: 2022-09-02T14:30:00+08:00
 author: UICHCC UICHCC Computer Club
 featurePhoto: false
-project_url: https://uichcc.com/timetable-to-bg/
+project_url: https://uichcc.app/timetable-to-bg/
 github_url: https://github.com/UICHCC/timetable-to-bg/
 ---
 

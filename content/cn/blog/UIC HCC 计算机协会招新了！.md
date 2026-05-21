@@ -20,4 +20,4 @@ feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 预约面试时间。
 
 欲了解协会相关信息，
-可访问 uichcc.com
+可访问 uichcc.app

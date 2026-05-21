@@ -23,4 +23,4 @@ feature_photo_url: "https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg"
 
 马上就要迎来长达 1 个多月的圣诞节假期啦（没错就是寒假~），不如现在就尝试一下，换上属于 UICer 的专属微信头像！！
 
-[使用 UIC 专属头像合成器](https://tools.uichcc.com/uic_headphoto_synthesizer/)
+[使用 UIC 专属头像合成器](https://tools.uichcc.app/uic_headphoto_synthesizer/)
